@@ -17,25 +17,25 @@ There are two resources.
 
 ## Quickstart
 
-[Quickstart (SineadC)](api/quickstart_sinead.md)
+[Quickstart)](x)
 
 ## Tutorials
 
 Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system for these tutorials. You only have to do this one time per development system.
 
-* [Before you start a tutorial](tutorials/before-you-start-a-tutorial)
+* [Before you start a tutorial](x)
 
 After your system is ready, these tutorials show you how to perform common tasks.
 
 Shifts
 
-* [Create a shift](x)
-* [Edit a shift](x)
-* [Delete a shift](x)
+* [Create a shift](tutorials/x)
+* [Edit a shift](tutorials/x)
+* [Delete a shift](tutorials/x)
 * [Add a new property to an existing shift](s)
-* [Get a user by name](tutorials/get-a-user-by-name)
-* [Get tasks by a property](tutorials/get-task-by-property.md)
-* [Delete a worker](tutorials/delete-a-task)
+* [Get a user by name](tutorials/x)
+* [Get tasks by a property](tutorials/x)
+* [Delete a worker](tutorials/x)
 
 Workers
 
