@@ -6,7 +6,7 @@ layout: page
 
 Turn your app into a staffing solution
 
-Who's Working is a cloud service that helps your shift managers find trained part-tiem workers and fill staffing positions. It's an ideal tool for quick service operations that experience last minute staff shortages. The lightweight API provides access to a list of trained part-time workers who might be available on short notice for a restaurant shift. The Who's Working API uses REST and returns HTTP response codes and responses encoded in JSON.
+Who's Working is a cloud service that helps your shift managers find trained part-time workers and fill staffing positions. It's an ideal tool for quick service operations that experience last minute staff changes. The lightweight API provides access to a list of trained part-time workers who might be available on short notice for a restaurant shift. The Who's Working API uses REST and returns HTTP response codes and responses encoded in JSON.
 
 There are two resources.
 
@@ -43,7 +43,6 @@ Workers
 * [Update a specific worker's information](x)
 * [Add a new property to an existing worker](s)
 
-
 ## API reference docs
 
 Detailed descriptions of the service's resources.
@@ -54,4 +53,4 @@ on the installation of the service. When running a local test, the `{base_url}` 
 * [Workers resource](api/workers)
 * [Shifts resource](api/shifts)
 * [Endpoint index](api/endpoint-index)
-* [Handling errors](api/handling-errors)
+* [Handling errors(api/handling-errors)
