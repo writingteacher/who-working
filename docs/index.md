@@ -49,5 +49,48 @@ Detailed descriptions of the service's resources.
 The API reference docs refer to a `{base_url}` when they refer to the URL of a resource. The `{base_url}` value depends
 on the installation of the service. When running a local test, the `{base_url}` is generally `http://localhost:3000`.
 
-* [Workers resource api/workers](api/workers)
-* [Shifts resource api/shifts](api/shifts)
+[Workers resource api/workers](api/workers)
+
+READ (GET)
+
+* Get all workers
+* Get users by ID
+* Get users by Email
+* Get users by first name
+
+CREATE (POST)
+
+* Create worker
+
+UPDATE (PUT/PATCH)
+
+* Update user by ID
+* Change user email
+* Change user property
+
+DELETE
+
+* Delete user by ID
+
+[Shifts resource api/shifts](api/shifts)
+
+READ (GET)
+
+* Get all shifts
+* Get shift by property
+
+CREATE (POST)
+
+* Create a shift
+
+COPY (COPY)
+
+* Copy a shift
+
+UPDATE (PUT/PATCH)
+
+* Update a shift with PATCH
+
+DELETE
+
+* Delete a shift
