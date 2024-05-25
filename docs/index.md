@@ -20,26 +20,27 @@ There are two resources.
 
 ## Tutorials
 
-Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system. You only have to do this one time per development system.
+Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system. Complete the set up one time per development system.
 
 * [Before you start a tutorial](x)
 
-After your system is ready, these tutorials show you how to perform common tasks.
+After your system is ready, select a tutorial and learn how to perform common tasks.
 
 Shifts
 
 * [Create a shift](tutorials/x)
 * [Edit a shift](tutorials/x)
 * [Delete a shift](tutorials/x)
+* [Copy a shift](tutorials/x)
 * [Add a new property to an existing shift](s)
-* [Get users by a property](tutorials/x)
-* [Delete a worker](tutorials/x)
+* [Get a worker by a property](tutorials/x)
 
 Workers
 
 * [Create a new worker](x)
 * [Update a specific worker's information](x)
 * [Add a new property to an existing worker](x)
+* [Delete a worker](tutorials/x)
 
 ## API reference docs
 
