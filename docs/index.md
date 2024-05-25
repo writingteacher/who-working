@@ -12,16 +12,15 @@ There are two resources.
 
 **Workers** - Part time workers who sign up for the Who's Working service. The Workers resource includes endpoints to create, retrieve, update, and delete user information.
 
-**Shifts** - Available shifts in the restaurant created by the shift manager. Each shift describes the day and time along hours and warnings. The Shifts resource includes endpoints to create, retrieve, update, and delete shift records.
-
+**Shifts** - Available shifts in the restaurant created by the shift manager. Each shift describes the location, day and time along hours, and warnings. The Shifts resource includes endpoints to create, retrieve, update, and delete shift records.
 
 ## Quickstart
 
-[Quickstart)](x)
+[Quickstart](x)
 
 ## Tutorials
 
-Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system for these tutorials. You only have to do this one time per development system.
+Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system. You only have to do this one time per development system.
 
 * [Before you start a tutorial](x)
 
@@ -33,15 +32,14 @@ Shifts
 * [Edit a shift](tutorials/x)
 * [Delete a shift](tutorials/x)
 * [Add a new property to an existing shift](s)
-* [Get a user by name](tutorials/x)
-* [Get tasks by a property](tutorials/x)
+* [Get users by a property](tutorials/x)
 * [Delete a worker](tutorials/x)
 
 Workers
 
 * [Create a new worker](x)
 * [Update a specific worker's information](x)
-* [Add a new property to an existing worker](s)
+* [Add a new property to an existing worker](x)
 
 ## API reference docs
 
@@ -52,5 +50,3 @@ on the installation of the service. When running a local test, the `{base_url}` 
 
 * [Workers resource](api/workers)
 * [Shifts resource](api/shifts)
-* [Endpoint index](api/endpoint-index)
-* [Handling errors(api/handling-errors)
