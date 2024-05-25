@@ -5,28 +5,36 @@
       "first_name": "Ferdinand",
       "email": "f.smith@example.com",
       "phone":"416-555-1213",
-      "id": 1
+      "id": 1,
+      "city": "Toronto",
+      "available": "mornings"
     },
     {
       "last_name": "Jones",
       "first_name": "Jill",
       "email": "j.jones@example.com",
       "phone":"416-555-1212",
-      "id": 2
+      "id": 2,
+      "city": "Toronto",
+      "available": "mornings"
     },
     {
       "last_name": "Martinez",
       "first_name": "Marty",
       "email": "m.martinez@example.com",
       "phone":"416-555-1214",
-      "id": 3
+      "id": 3,
+      "city": "Toronto",
+      "available": "afternoons"
     },
     {
       "last_name": "Bailey",
       "first_name": "Bill",
       "email": "b.bailey@example.com",
       "phone":"416-555-1215",
-      "id": 4
+      "id": 4,
+      "city": "Toronto",
+      "available": "weekends"
     }
   ],
   "shifts": [
@@ -35,28 +43,36 @@
       "date": "2024-06-01",
       "start_time": "0700",
       "finish_time": "11:00",
-      "warning": "opening"
+      "warning": "opening",
+      "location_city": "Toronto",
+      "location_detail": "Eatons Centre"
     },
     {
       "shift_id": 2,
       "date": "2024-06-03",
       "start_time": "10:30",
       "finish_time": "14:30",
-      "warning": "none"
+      "warning": "none",
+      "location_city": "Toronto",
+      "location_detail": "Yorkville Mall"
     },
     {
       "shift_id": 3,
       "date": "2024-06-04",
       "start_time": "14:30",
       "finish_time": "10:30",
-      "warning": "closing"
+      "warning": "closing",
+      "location_city": "Toronto",
+      "location_detail": "Yonge-Bloor"
     },
     {
       "shift_id": 4,
       "date": "2024-06-05",
       "start_time": "15:30",
       "finish_time": "10:30",
-      "warning": "closing"
+      "warning": "closing",
+      "location_city": "Toronto",
+      "location_detail": "Yonge-Bloor"
     }
   ]
 }
