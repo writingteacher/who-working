@@ -54,9 +54,8 @@ on the installation of the service. When running a local test, the `{base_url}` 
 READ (GET)
 
 * Get all workers
-* Get users by ID
-* Get users by Email
-* Get users by first name
+* Get worker by availability
+* Get worker by property
 
 CREATE (POST)
 
@@ -64,13 +63,12 @@ CREATE (POST)
 
 UPDATE (PUT/PATCH)
 
-* Update user by ID
-* Change user email
-* Change user property
+* Change worker email
+* Change worker property
 
 DELETE
 
-* Delete user by ID
+* Delete worker by ID
 
 [Shifts resource api/shifts](api/shifts)
 
