@@ -48,5 +48,5 @@ Detailed descriptions of the service's resources.
 The API reference docs refer to a `{base_url}` when they refer to the URL of a resource. The `{base_url}` value depends
 on the installation of the service. When running a local test, the `{base_url}` is generally `http://localhost:3000`.
 
-* [Workers resource](api/workers)
-* [Shifts resource](api/shifts)
+* [Workers resource api/workers](api/workers)
+* [Shifts resource api/shifts](api/shifts)
