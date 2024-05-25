@@ -7,7 +7,8 @@
       "phone":"416-555-1213",
       "id": 1,
       "city": "Toronto",
-      "available": "mornings"
+      "available": "mornings",
+      "status": "open"
     },
     {
       "last_name": "Jones",
@@ -45,7 +46,8 @@
       "finish_time": "11:00",
       "warning": "opening",
       "location_city": "Toronto",
-      "location_detail": "Eatons Centre"
+      "location_detail": "Eatons Centre",
+      "status": "open"
     },
     {
       "shift_id": 2,
@@ -54,7 +56,8 @@
       "finish_time": "14:30",
       "warning": "none",
       "location_city": "Toronto",
-      "location_detail": "Yorkville Mall"
+      "location_detail": "Yorkville Mall",
+      "status": "open"
     },
     {
       "shift_id": 3,
@@ -63,7 +66,8 @@
       "finish_time": "10:30",
       "warning": "closing",
       "location_city": "Toronto",
-      "location_detail": "Yonge-Bloor"
+      "location_detail": "Yonge-Bloor",
+      "status": "open"
     },
     {
       "shift_id": 4,
@@ -72,7 +76,8 @@
       "finish_time": "10:30",
       "warning": "closing",
       "location_city": "Toronto",
-      "location_detail": "Yonge-Bloor"
+      "location_detail": "Yonge-Bloor",
+      "status": "open"
     }
   ]
 }

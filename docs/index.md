@@ -31,7 +31,7 @@ Shifts
 * [Create a shift](tutorials/x)
 * [Edit a shift](tutorials/x)
 * [Delete a shift](tutorials/x)
-* [Copy a shift](tutorials/x)
+* [Copy a shift and change a property](tutorials/x)
 * [Add a new property to an existing shift](s)
 * [Get a worker by a property](tutorials/x)
 
@@ -75,6 +75,7 @@ DELETE
 READ (GET)
 
 * Get all shifts
+* Get shift by status
 * Get shift by property
 
 CREATE (POST)
