@@ -17,7 +17,9 @@
       "phone":"416-555-1212",
       "id": 2,
       "city": "Toronto",
-      "available": "mornings"
+      "available": "mornings",
+      "username":"demo",
+      "password":"1234"
     },
     {
       "last_name": "Martinez",

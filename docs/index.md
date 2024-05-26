@@ -14,6 +14,10 @@ There are two resources.
 
 **Shifts** - Available shifts in the restaurant created by the shift manager. Each shift describes the location, day and time along hours, and warnings. The Shifts resource includes endpoints to create, retrieve, update, and delete shift records.
 
+## Authentification
+
+The Who's Working app uses [Basic Authentication](api/basic_auth.md).
+
 ## Quickstart
 
 [Quickstart](x)
