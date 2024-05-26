@@ -26,7 +26,7 @@ Learn how to do common tasks within the Who's Working service. Do this tutorial 
 
 After your system is ready, select a tutorial and learn how to perform common tasks.
 
-Shifts
+### Shifts
 
 * [Create a shift](tutorials/x)
 * [Edit a shift](tutorials/x)
@@ -35,7 +35,7 @@ Shifts
 * [Add a new property to an existing shift](s)
 * [Get a worker by a property](tutorials/x)
 
-Workers
+### Workers
 
 * [Create a new worker](x)
 * [Update a specific worker's information](x)
@@ -49,7 +49,7 @@ Detailed descriptions of the service's resources.
 The API reference docs refer to a `{base_url}` when they refer to the URL of a resource. The `{base_url}` value depends
 on the installation of the service. When running a local test, the `{base_url}` is generally `http://localhost:3000`.
 
-[Workers resource api/workers](api/workers)
+### [Workers resource api/workers](api/workers)
 
 READ (GET)
 
@@ -70,7 +70,7 @@ DELETE
 
 * Delete worker by ID
 
-[Shifts resource api/shifts](api/shifts)
+### [Shifts resource api/shifts](api/shifts)
 
 READ (GET)
 
