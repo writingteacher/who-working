@@ -32,15 +32,14 @@ After your system is ready, select a tutorial and learn how to perform common ta
 * [Edit a shift](tutorials/x)
 * [Delete a shift](tutorials/x)
 * [Copy a shift and change a property](tutorials/x)
-* [Add a new property to an existing shift](s)
-* [Get a worker by a property](tutorials/x)
+* [Get a shift by a property](tutorials/x)
 
 ### Workers
 
 * [Create a new worker](x)
 * [Update a specific worker's information](x)
-* [Add a new property to an existing worker](x)
 * [Delete a worker](tutorials/x)
+* [Get a worker by a property](tutorials/x)
 
 ## API reference docs
 
