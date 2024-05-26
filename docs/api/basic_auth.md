@@ -10,7 +10,7 @@ API requests must provide your username and password in the HTTP Authorization h
 http://localhost:3000/basic-auth
 ```
 
-```
+```js
 curl -u user:pass http://localhost:3000/workers/2
 {
   "last_name": "Jones",
