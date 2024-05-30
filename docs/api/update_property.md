@@ -4,14 +4,14 @@ layout: page
 
 # Update a shift with PATCH
 
-Use `PATCH` to update a shift when you want to update some of the information in a record. To update a specific sht, you must supply the task `id` in both the request endpoint and request body.
+Use `PATCH` to update a shift and update some of the information in a record. To update a specific shift, you must supply the task `id` in both the request endpoint and request body.
 
 ## Endpoint
 
 The endpoint for using `PATCH` to update a task is:
 
 ```
-{server_url}/shofts/{id}
+{server_url}/shifts/{id}
 ```
 
 ## Properties
@@ -20,7 +20,7 @@ The following example contains a request body for a `PATCH` request.
 
 ```json
 {
-  "user_id": 3,
+  "user_id": 1,
   "title": "Get shots for cat", 
   "description": "Annual vaccinations for Sophie", 
   "due_date": "2024-05-15T14:00", 

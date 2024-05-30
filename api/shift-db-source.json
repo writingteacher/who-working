@@ -5,7 +5,7 @@
       "last_name": "Smith",
       "first_name": "Ferdinand",
       "email": "f.smith@example.com",
-      "phone":"416-555-1213",
+      "phone": "416-555-1213",
       "available": "mornings"
     },
     {
@@ -13,7 +13,7 @@
       "last_name": "Jones",
       "first_name": "Jill",
       "email": "j.jones@example.com",
-      "phone":"416-555-1212",
+      "phone": "416-555-1212",
       "available": "mornings"
     },
     {
@@ -21,7 +21,7 @@
       "last_name": "Martinez",
       "first_name": "Marty",
       "email": "m.martinez@example.com",
-      "phone":"416-555-1214",
+      "phone": "416-555-1214",
       "available": "afternoons"
     },
     {
@@ -29,13 +29,13 @@
       "last_name": "Bailey",
       "first_name": "Bill",
       "email": "b.bailey@example.com",
-      "phone":"416-555-1215",
+      "phone": "416-555-1215",
       "available": "weekends"
     }
   ],
   "shifts": [
     {
-      "shift_id": 1,
+      "id": 1,
       "date": "2024-06-01",
       "start_time": "0700",
       "shift_length": "4",
@@ -44,7 +44,7 @@
       "status": "open"
     },
     {
-      "shift_id": 2,
+      "id": 2,
       "date": "2024-06-03",
       "start_time": "1030",
       "shift_length": "4",
@@ -53,7 +53,7 @@
       "status": "open"
     },
     {
-      "shift_id": 3,
+      "id": 3,
       "date": "2024-06-04",
       "start_time": "1430",
       "shift_length": "4",
@@ -62,12 +62,57 @@
       "status": "open"
     },
     {
-      "shift_id": 4,
+      "id": 4,
       "date": "2024-06-05",
       "start_time": "1530",
       "shift_length": "4",
       "warning": "closing",
       "location_detail": "Yonge-Bloor",
+      "status": "open"
+    },
+    {
+      "id": "19c1",
+      "date": "2024-06-11",
+      "start_time": "0900",
+      "shift_length": "6",
+      "warning": "opening",
+      "location_detail": "Eatons Centre",
+      "status": "open"
+    },
+    {
+      "id": "9fb9",
+      "date": "2024-06-11",
+      "start_time": "0900",
+      "shift_length": "6",
+      "warning": "opening",
+      "location_detail": "Eatons Centre",
+      "status": "open"
+    },
+    {
+      "id": "03b6",
+      "date": "2024-06-11",
+      "start_time": "0900",
+      "shift_length": "6",
+      "warning": "opening",
+      "location_detail": "Eatons Centre",
+      "status": "closed"
+    },
+    {
+      "id": "03d3",
+      "date": "2024-06-11",
+      "start_time": "0900",
+      "shift_length": "6",
+      "warning": "opening",
+      "location_detail": "Eatons Centre",
+      "status": "closed"
+    },
+    {
+      "id": "81a2",
+      "date": "2024-06-11",
+      "start_time": "0900",
+      "shift_length": "6",
+      "warning": "opening",
+      "location_detail": "Eatons Centre",
       "status": "open"
     }
   ]
