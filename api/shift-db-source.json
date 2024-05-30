@@ -6,9 +6,7 @@
       "email": "f.smith@example.com",
       "phone":"416-555-1213",
       "id": 1,
-      "city": "Toronto",
-      "available": "mornings",
-      "status": "open"
+      "available": "mornings"
     },
     {
       "last_name": "Jones",
@@ -16,10 +14,7 @@
       "email": "j.jones@example.com",
       "phone":"416-555-1212",
       "id": 2,
-      "city": "Toronto",
-      "available": "mornings",
-      "username":"demo",
-      "password":"1234"
+      "available": "mornings"
     },
     {
       "last_name": "Martinez",
@@ -27,7 +22,6 @@
       "email": "m.martinez@example.com",
       "phone":"416-555-1214",
       "id": 3,
-      "city": "Toronto",
       "available": "afternoons"
     },
     {
@@ -36,7 +30,6 @@
       "email": "b.bailey@example.com",
       "phone":"416-555-1215",
       "id": 4,
-      "city": "Toronto",
       "available": "weekends"
     }
   ],
@@ -45,39 +38,35 @@
       "shift_id": 1,
       "date": "2024-06-01",
       "start_time": "0700",
-      "finish_time": "11:00",
+      "shift_length": "4",
       "warning": "opening",
-      "location_city": "Toronto",
       "location_detail": "Eatons Centre",
       "status": "open"
     },
     {
       "shift_id": 2,
       "date": "2024-06-03",
-      "start_time": "10:30",
-      "finish_time": "14:30",
+      "start_time": "1030",
+      "shift_length": "4",
       "warning": "none",
-      "location_city": "Toronto",
       "location_detail": "Yorkville Mall",
       "status": "open"
     },
     {
       "shift_id": 3,
       "date": "2024-06-04",
-      "start_time": "14:30",
-      "finish_time": "10:30",
+      "start_time": "1430",
+      "shift_length": "4",
       "warning": "closing",
-      "location_city": "Toronto",
       "location_detail": "Yonge-Bloor",
       "status": "open"
     },
     {
       "shift_id": 4,
       "date": "2024-06-05",
-      "start_time": "15:30",
-      "finish_time": "10:30",
+      "start_time": "1530",
+      "shift_length": "4",
       "warning": "closing",
-      "location_city": "Toronto",
       "location_detail": "Yonge-Bloor",
       "status": "open"
     }
