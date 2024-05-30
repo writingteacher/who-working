@@ -42,7 +42,7 @@ The following table defines properties in the request body.
 | `shift_length` | String | The shift length measured in hours. Use integers with one decimal place (e.g. 5.5).|
 | `warning`     | Number | The number of hours relative to the `date` to alert the workers of the shift. This is normally a negative number to alert the user before the `date`. |
 | `location_detail`  | String | A short description of the restaurant's location.|
-| `status`  | String | Open or closed.|
+| `status`  | String | The available shift is **Open** (waiting to fill the positon) or **Closed** (the positon is no longer available).|
 
 ## Operations
 
