@@ -20,12 +20,13 @@ The following example contains a request body for a `PATCH` request.
 
 ```json
 {
-  "user_id": 1,
-  "title": "Get shots for cat", 
-  "description": "Annual vaccinations for Sophie", 
-  "due_date": "2024-05-15T14:00", 
-  "warning": "-20",
-  "id": 4
+        "id": "03b6",
+        "date": "2024-06-11",
+        "start_time": "0900",
+        "shift_length": "6",
+        "warning": "opening",
+        "location_detail": "Eatons Centre",
+        "status": "closed"
 }
 ```
 
@@ -35,12 +36,16 @@ The following table defines properties in the request body.
 
 | Property name | Type   | Description                                                                                                                                                 |
 | ------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `user_id`     | Number | The ID of the user resource to which this task is assigned.                                                                                                 |
-| `title`       | String | The title or short description of the task.                                                                                                                 |
-| `description` | String | The long description of the task.                                                                                                                           |
-| `due_date`    | String | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the task is due.                                                         |
-| `warning`     | Number | The number of minutes relative to the `due_date` to alert the user of the task. This is normally a negative number to alert the user before the `due_date`. |
-| `id`          | Number | (Required) The task's unique record. ID.                                                                                                                     |
+| `id`     | Number | The unique ID assigned to the shift. record. 
+ |                                                                                                |
+| `date`    | String | The date (YYYY-MM-DD) of the work shift. Use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)format.                                                                                                                |
+| `start_time` | Integer | The shift's start time. Use 24 clock time with no colon.
+
+| `shift_length` | String | The shift length measured in hours. Use integers with one decimal place (e.g. 5.5).                                                                                                                    |
+| `warning`     | Number | The number of hours relative to the `date` to alert the workers of the shift. This is normally a negative number to alert the user before the `date`. |
+| `location_detail`  | String | A short description of the restaurant's location.
+
+| `status`  | String | Open or closed.                                                                                                                   |
 ## Operations
 
 When you use `PATCH` to update a task, you can:
