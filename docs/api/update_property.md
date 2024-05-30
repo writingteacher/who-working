@@ -35,17 +35,14 @@ The following example contains a request body for a `PATCH` request.
 The following table defines properties in the request body.
 
 | Property name | Type   | Description                                                                                                                                                 |
-| ------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------- | ------ | ------------------------- |
 | `id`     | Number | The unique ID assigned to the shift. record.  |
 | `date`    | String | The date (YYYY-MM-DD) of the work shift. Use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)format.|
 | `start_time` | Integer | The shift's start time. Use 24 clock time with no colon.|
 | `shift_length` | String | The shift length measured in hours. Use integers with one decimal place (e.g. 5.5).|
 | `warning`     | Number | The number of hours relative to the `date` to alert the workers of the shift. This is normally a negative number to alert the user before the `date`. |
-    |
 | `location_detail`  | String | A short description of the restaurant's location.|
-    |
 | `status`  | String | Open or closed.|
-|
 
 ## Operations
 
