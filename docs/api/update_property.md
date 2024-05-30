@@ -2,16 +2,16 @@
 layout: page
 ---
 
-# Update a task with PATCH
+# Update a shift with PATCH
 
-Use `PATCH` to update a task when you want to change only some of the information in that task. You must supply the task `id` in both the request endpoint and the request body. 
+Use `PATCH` to update a shift when you want to update some of the information in a record. To update a specific sht, you must supply the task `id` in both the request endpoint and request body.
 
 ## Endpoint
 
 The endpoint for using `PATCH` to update a task is:
 
 ```
-{server_url}/tasks/{id}
+{server_url}/shofts/{id}
 ```
 
 ## Properties

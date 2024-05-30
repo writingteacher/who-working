@@ -1,35 +1,35 @@
 {
   "workers": [
     {
+      "id": 1,
       "last_name": "Smith",
       "first_name": "Ferdinand",
       "email": "f.smith@example.com",
       "phone":"416-555-1213",
-      "id": 1,
       "available": "mornings"
     },
     {
+      "id": 2,
       "last_name": "Jones",
       "first_name": "Jill",
       "email": "j.jones@example.com",
       "phone":"416-555-1212",
-      "id": 2,
       "available": "mornings"
     },
     {
+      "id": 3,
       "last_name": "Martinez",
       "first_name": "Marty",
       "email": "m.martinez@example.com",
       "phone":"416-555-1214",
-      "id": 3,
       "available": "afternoons"
     },
     {
+      "id": 4,
       "last_name": "Bailey",
       "first_name": "Bill",
       "email": "b.bailey@example.com",
       "phone":"416-555-1215",
-      "id": 4,
       "available": "weekends"
     }
   ],
