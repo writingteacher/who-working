@@ -68,7 +68,7 @@ In the Request Body, add the properties and parameters that require an update. I
 }
 ```
 
-1. Click Send. The service updates the shift record and returns a 200 OK along with the updated task as a JSON object.
+Click **Send**. The service updates the shift record and returns a 200 OK along with the updated task as a JSON object.
 
 ```js
 {
