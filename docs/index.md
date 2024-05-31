@@ -6,13 +6,13 @@ layout: page
 
 Turn your app into a staffing solution
 
-Who's Working is a cloud service that helps your shift managers find trained part-time workers and fill staffing positions. It's an ideal tool for quick service operations that experience last minute staff changes. The lightweight API provides access to a list of trained part-time workers who might be available on short notice for a restaurant shift. The Who's Working API uses REST and returns HTTP response codes and responses encoded in JSON.
+Who's Working is a cloud service that helps your shift managers find trained part-time workers and fill staffing positions. It's an ideal tool for quick service operations that experience last-minute staff changes. The lightweight API provides access to a list of trained part-time workers who might be available on short notice for a restaurant shift. The Who's Working API uses REST and returns HTTP response codes and responses encoded in JSON.
 
 There are two resources.
 
-**Workers** - Part time workers who sign up for the Who's Working service. The Workers resource includes endpoints to create, retrieve, update, and delete user information.
+**Workers** - Part-time workers who sign up for the Who's Working service. The Workers resource includes endpoints to create, retrieve, update, and delete user information.
 
-**Shifts** - Available shifts in the restaurant created by the shift manager. Each shift describes the location, day and time along hours, and warnings. The Shifts resource includes endpoints to create, retrieve, update, and delete shift records.
+**Shifts** - Available shifts in the restaurant created by the shift manager. Each shift describes the location, day and time, shift length, and warnings. The Shifts resource includes endpoints to create, retrieve, update, and delete shift records.
 
 ## Authentification
 
@@ -24,7 +24,7 @@ The Who's Working app uses [Basic Authentication](api/basic_auth.md).
 
 ## Tutorials
 
-Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system. Complete the set up one time per development system.
+Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system. Complete the set up once per development system.
 
 * [Before you start a tutorial](x)
 
