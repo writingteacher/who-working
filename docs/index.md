@@ -28,22 +28,22 @@ Learn how to do common tasks within the Who's Working service. Do this tutorial 
 
 * [Before you start a tutorial](x)
 
-After your system is ready, select a tutorial and learn how to perform common tasks.
+After your system is ready, open the tutorial and learn how to perform common tasks.
 
 ### Shifts
 
-* [Create a shift](tutorials/x)
-* [Edit a shift](tutorials/x)
-* [Delete a shift](tutorials/x)
-* [Copy a shift and change a property](tutorials/x)
-* [Get a shift by a property](tutorials/x)
+* [Update a shift](update-a-shift.md)
+* [Create a shift](coming soon)
+* [Edit a shift](coming soon)
+* [Delete a shift](coming soon)
+* [Get a shift by a property](coming soon)
 
 ### Workers
 
-* [Create a new worker](x)
-* [Update a specific worker's information](x)
-* [Delete a worker](tutorials/x)
-* [Get a worker by a property](tutorials/x)
+* [Create a new worker](coming soon)
+* [Update a specific worker's information](coming soon)
+* [Delete a worker](coming soon)
+* [Get a worker by a property](coming soon)
 
 ## API reference docs
 
