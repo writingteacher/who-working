@@ -1,0 +1,62 @@
+{
+  "workers": [
+    {
+      "last_name": "Smith",
+      "first_name": "Ferdinand",
+      "email": "f.smith@example.com",
+      "phone":"416-555-1213",
+      "id": 1
+    },
+    {
+      "last_name": "Jones",
+      "first_name": "Jill",
+      "email": "j.jones@example.com",
+      "phone":"416-555-1212",
+      "id": 2
+    },
+    {
+      "last_name": "Martinez",
+      "first_name": "Marty",
+      "email": "m.martinez@example.com",
+      "phone":"416-555-1214",
+      "id": 3
+    },
+    {
+      "last_name": "Bailey",
+      "first_name": "Bill",
+      "email": "b.bailey@example.com",
+      "phone":"416-555-1215",
+      "id": 4
+    }
+  ],
+  "shifts": [
+    {
+      "shift_id": 1,
+      "date": "2024-06-01",
+      "start_time": "0700",
+      "finish_time": "11:00",
+      "warning": "opening"
+    },
+    {
+      "shift_id": 2,
+      "date": "2024-06-03",
+      "start_time": "10:30",
+      "finish_time": "14:30",
+      "warning": "none"
+    },
+    {
+      "shift_id": 3,
+      "date": "2024-06-04",
+      "start_time": "14:30",
+      "finish_time": "10:30",
+      "warning": "closing"
+    },
+    {
+      "shift_id": 4,
+      "date": "2024-06-05",
+      "start_time": "15:30",
+      "finish_time": "10:30",
+      "warning": "closing"
+    }
+  ]
+}
