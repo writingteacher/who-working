@@ -33,17 +33,17 @@ After your system is ready, open the tutorial and learn how to perform common ta
 ### Shifts
 
 * [Update a shift](tutorials/update-a-shift.md)
-* [Create a shift]
-* [Edit a shift]
-* [Delete a shift]
-* [Get a shift by a property]
+* Create a shift
+* Edit a shift
+* Delete a shift
+* Get a shift by a property
 
 ### Workers
 
-* [Create a new worker](coming soon)
-* [Update a specific worker's information](coming soon)
-* [Delete a worker](coming soon)
-* [Get a worker by a property](coming soon)
+* Create a new worker
+* Update a specific worker's information
+* Delete a worker
+* Get a worker by a property
 
 ## API reference docs
 
