@@ -20,7 +20,7 @@ The Who's Working app uses [Basic Authentication](api/basic_auth.md).
 
 ## Quickstart
 
-[Quickstart](x)
+[Quickstart](update-shift.md)
 
 ## Tutorials
 
