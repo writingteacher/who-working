@@ -32,11 +32,11 @@ After your system is ready, open the tutorial and learn how to perform common ta
 
 ### Shifts
 
-* [Update a shift](update-a-shift.md)
-* [Create a shift](coming soon)
-* [Edit a shift](coming soon)
-* [Delete a shift](coming soon)
-* [Get a shift by a property](coming soon)
+* [Update a shift](tutorials/update-a-shift.md)
+* [Create a shift]
+* [Edit a shift]
+* [Delete a shift]
+* [Get a shift by a property]
 
 ### Workers
 
