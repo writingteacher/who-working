@@ -89,5 +89,5 @@ Now that you have verified this API workflow in Postman, you’re ready to integ
 
 ## Related Topics
 
-* Shift resource
-* Worker resource
+* Shifts resource
+* Workers resource
