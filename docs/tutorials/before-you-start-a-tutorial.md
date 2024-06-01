@@ -23,13 +23,13 @@ You'll need the following software on your development system:
 
 * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line).
 * [GitHub Desktop](https://desktop.github.com) (optional).
-* A fork of the [Who's Working service repo](https://github.com/writingteacher/who-working).
+* A fork of the [Who's Working service repo](https://github.com/writingteacher/who-working) and a clone on your local machine.
 * A current/LTS version of [node.js](https://nodejs.org/en/).
 * A current version of [json-server](https://www.npmjs.com/package/json-server).
 * A current copy of the database file. You can get this by syncing your fork.
 * The [Postman desktop app](https://www.postman.com/downloads/). Because you run the **Who's Working service** on your development system with an `http://localhost` hostname, the web version of Postman can't perform the exercises.
 
-* **TIP**: If you're using a clone of the repo on your desktop, create a working branch for your tutorial work. Create a new branch for each tutorial to prevent a mistake in one from affecting your work in another.*
+**TIP**: If you're using a clone of the repo on your desktop, create a working branch for your tutorial work. Create a new branch for each tutorial to prevent a mistake in one from affecting your work in another.
 
 ## Testing your development system
 
