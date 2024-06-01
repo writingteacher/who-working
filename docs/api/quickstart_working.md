@@ -10,7 +10,7 @@ Easily manage all your last-minute staffing requirements with one simple app!
 
 ## At a glance
 
-This Quickstart provides all the information you need to begin using Who's Working to fill last minute staffing vancies.
+This Quickstart provides all the information you need to begin using Who's Working to fill last minute staffing vacancies.
 
 You’ll learn when and how to use the service and get set up to make your first call to the API.
 
@@ -24,9 +24,9 @@ You might need to set up your development system and get going from scratch. Don
 
 The service REST API offers a wide range of integration possibilities, from enhancing internal workflow to creating customer-facing apps.
 
-The service has two resources: [`shifts`](shifts) and [`workers`](workers). The [`shifts`](shifts) resource lists all restaurant shifts in the database, including OPEN and CLOSED shifts. The [`workers`](workers) resource lists all trained workers who expressed an interest on working on an on-call basis for the quickservice location.
+The service has two resources: [`shifts`](shifts) and [`workers`](workers). The [`shifts`](shifts) resource lists all restaurant shifts created in the database, including OPEN and CLOSED shifts. The [`workers`](workers) resource lists all trained workers who expressed an interest on working on an on-call basis for the quickservice location.
 
-In Version 1, quickservice managers are responsible for managing shift and worker records. That includes creating, editing, and deleting records. Managers are also reponsible for pro-actively scanning the list of workers for possible matches. If they find a match, the manger contacts the worker via email or phone and continues the disucssion off-app. In Version 2, workers who sign up for the service will have access to the app. They will be able to search for available shifts that align with their schedules and contact the shift manager.
+In Version 1, quickservice managers are responsible for managing shift and worker records. That includes creating, editing, and deleting records. Managers are also reponsible for pro-actively scanning the list of workers for possible matches. If they find a match, the manger contacts the worker via email or phone and continues the discussion off-app. In Version 2, workers who sign up for the service will have access to the app. They will be able to search for available shifts that align with their schedules and contact the shift manager.
 
 ## How to use the Who's Working service
 
@@ -38,11 +38,10 @@ To build your API call, you must have the following components:
 
 ### Supported endpoints
 
-| HTTP Method | Endpoint |
-
 ### Shifts
 
 | :--------------: | :--------------: |
+| HTTP Method | Endpoint |
 | GET | [List all shifts](get-all-shifts.md) |
 | GET | [List shifts by ID](get-shifts-by-id.md) |
 | GET | [List shift by date](get-shift-by-date.md) |
@@ -54,6 +53,7 @@ To build your API call, you must have the following components:
 ### Workers
 
 | :--------------: | :--------------: |
+| HTTP Method | Endpoint |
 | GET | [List all workers](get-all-workers.md) |
 | GET | [List workers by ID](get-workers-by-id.md) |
 | GET | [List workers by email](users-get-user-by-email.md) |
@@ -74,7 +74,7 @@ Let’s test making this simple request to the [`shifts`](task) resource. You’
 curl http://localhost:3000/shifts
 ```
 
-If the call is successful, the response you receive will be a list of shifts from the Who's Workign service such as you see in this example:
+If the call is successful, the response you receive will be a list of shifts from the Who's Working service such as you see in this example:
 
 ```js
 
@@ -117,6 +117,6 @@ cURL comes installed by default on Mac operating systems. If you need to, instal
 
 ## Next steps
 
-Now that you’ve everything set up correctly, you’re good to go and can take full advantage of the Who's Working service API! Go ahead and start posting new shofts or creating new workers. You’ll see how easy the API is to use.
+Now that everything is set up correctly, you can take full advantage of the Who's Working service API! Go ahead and start posting new shifts or creating new workers. You’ll see how easy the API is to use.
 
-If you need more guidance, the Tutorials section of the API documentation walks through a common task you’ll want to do. The finer details of the supported resources, endpoints and properties are in the API reference section. For more information, go [here](../index.md).
+If you need more guidance, the [Tutorials](tutorials/before-you-start-a-tutorial.md) section of the API documentation walks through a common shift task. The finer details of the supported resources, endpoints and properties are in the API reference section. For more information, go [here](../index.md).
