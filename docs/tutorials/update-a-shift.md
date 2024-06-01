@@ -84,7 +84,8 @@ Click **Send**. The service updates the shift record and returns a 200 OK along 
 
 ## Next Steps
 
-Now that you have verified this API workflow in Postman, you’re ready to integrate it into your application. For more information, contact your customer success manager or read our [Quickstart guide](..api/quickstart_working.md)
+Now that you have verified this API workflow in Postman, you’re ready to integrate it into your application. For more information, contact your customer success manager or read our
+ [Quickstart guide](../api/quickstart_working.md)
 
 ## Related Topics
 
