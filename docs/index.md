@@ -30,7 +30,7 @@ Learn how to do common tasks within the Who's Working service. Do this tutorial 
 
 After your system is ready, open the tutorial and learn how to perform common tasks.
 
-### Shifts
+#### Shifts
 
 * [Update a shift](tutorials/update-a-shift.md)
 * Create a shift
@@ -38,7 +38,7 @@ After your system is ready, open the tutorial and learn how to perform common ta
 * Delete a shift
 * Get a shift by a property
 
-### Workers
+#### Workers
 
 * Create a new worker
 * Update a specific worker's information
