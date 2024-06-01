@@ -20,13 +20,13 @@ The Who's Working app uses [Basic Authentication](api/basic_auth.md).
 
 ## Quickstart
 
-[Quickstart](update-shift.md)
+[Quickstart](api/quickstart_working.md)
 
 ## Tutorials
 
 Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system. Complete the set up once per development system.
 
-* [Before you start a tutorial](x)
+* [Before you start a tutorial](tutorials/before-you-start-a-tutorial.md)
 
 After your system is ready, open the tutorial and learn how to perform common tasks.
 

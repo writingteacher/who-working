@@ -4,9 +4,9 @@ layout: page
 
 # Quickstart guide
 
-Have you a lot on your plate to keep track of?
+Busy managing a quickservice location?
 
-Easily manage all your tasks in one simple to-do list!
+Easily manage all your last-minute staffing requirements with one simple app!
 
 ## At a glance
 
