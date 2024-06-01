@@ -10,94 +10,100 @@ Easily manage all your last-minute staffing requirements with one simple app!
 
 ## At a glance
 
-This Quickstart provides all the information you need to begin using To-Do to track your tasks.
+This Quickstart provides all the information you need to begin using Who's Working to fill last minute staffing vancies.
 
-You’ll learn when and how to use the web service and get set up to make your first call to the API.
+You’ll learn when and how to use the service and get set up to make your first call to the API.
 
-## Setting up the To-Do service
+## Setting up the Who's Working service
 
-Tasks will surface in the To-Do service when they are created in the database and assigned to users (by user {id}). If you’ve used the To-Do service previously, you’re already enrolled in the service and may have tasks to work with.
+Shifts and Workers appear in the Who's Working service when they are created in the database.
 
-If not, you might need to set up your development system and get going from scratch. Don’t worry – you only have to do this one time per development system! Follow these [prerequisite steps](../tutorials/before-you-start-a-tutorial.md) to install the tools and test your development system.
+You might need to set up your development system and get going from scratch. Don’t worry – you only have to do this one time per development system! Follow these [prerequisite steps](../tutorials/before-you-start-a-tutorial.md) to install the tools and test your development system.
 
-## When to use the To-Do service
+## When to use the Who's Working service
 
-The To-Do service REST API offers a wide range of integration possibilities, from enhancing internal workflow to creating customer-facing task reminder apps.
+The service REST API offers a wide range of integration possibilities, from enhancing internal workflow to creating customer-facing apps.
 
-The service comprises two resources: [`user`](user) and [`task`](task). The [`user`](user) resource (containing the subscribers to the service) works in synergy with the [`task`](task) resource (containing the tasks) to align users with their to-do list reminders.
+The service has two resources: [`shifts`](shifts) and [`workers`](workers). The [`shifts`](shifts) resource lists all restaurant shifts in the database, including OPEN and CLOSED shifts. The [`workers`](workers) resource lists all trained workers who expressed an interest on working on an on-call basis for the quickservice location.
 
-Using this cloud-based service, customers can register themselves to create and manage their own tasks.
-When they're registered, customers can update and delete tasks to suit their needs. Adding tasks on customers' behalf is easy - if they're collaborating with colleagues on different teams and projects, for example, they might be delegated requests and assigned tasks from different sources.
+In Version 1, quickservice managers are responsible for managing shift and worker records. That includes creating, editing, and deleting records. Managers are also reponsible for pro-actively scanning the list of workers for possible matches. If they find a match, the manger contacts the worker via email or phone and continues the disucssion off-app. In Version 2, workers who sign up for the service will have access to the app. They will be able to search for available shifts that align with their schedules and contact the shift manager.
 
-## How to use the To-Do service
+## How to use the Who's Working service
 
 To build your API call, you must have the following components:
 
-* **A host.**  The {base_url} depends on users' installation of the service in their development environment. For v1 of To-Do Service API, the **base_url** variable is typically set to `http://localhost:3000`.
-* **Authorization.**  For v1 of the To-Do service, requests do not use any authorization. All endpoints are available to all users and applications.
-* **A request.**  The To-Do service REST API enables CRUD operations via HTTP requests on database resources (`GET`, `POST`, `PUT`, `PATCH`, and `DELETE` methods). Request and response bodies are encoded as JSON.
+* **A host.**  The {base_url} depends on users' installation of the service in their development environment. For v1 of the service API, the **base_url** variable is typically set to `http://localhost:3000`.
+* **Authorization.**  For v1 of the service, requests do not use any authorization. All endpoints are available to all users and applications.
+* **A request.**  The service REST API enables CRUD operations via HTTP requests on database resources (`GET`, `POST`, `PUT`, `PATCH`, and `DELETE` methods). Request and response bodies are encoded as JSON.
 
 ### Supported endpoints
 
 | HTTP Method | Endpoint |
+
+### Shifts
+
 | :--------------: | :--------------: |
-| GET | [List all users](users-get-all-users.md) |
-| GET | [List user by ID](users-get-user-by-id.md) |
-| GET | [List user by email](users-get-user-by-email.md) |
-| POST | [Create a user](users-create-user.md) |
-| PUT | [Update user by ID](users-update-by-id.md) |
-| PATCH | [Update user email](users-change-user-email.md) |
-| PATCH | [Update user properties](users-change-user-property.md) |
-| GET | [Get task by title](tasks-ref-topic-get-task-by-title.md) |
-| CREATE | [Create a task](tasks-create-task.md) |
-| PATCH | [Update a task](update-task-with-patch.md) |
+| GET | [List all shifts](get-all-shifts.md) |
+| GET | [List shifts by ID](get-shifts-by-id.md) |
+| GET | [List shift by date](get-shift-by-date.md) |
+| POST | [Create a shift](create-shift.md) |
+| PUT | [Update shift by ID](update-shift-by-id.md) |
+| PATCH | [Update shift properties](change-shift-property.md) |
+| CREATE | [Create a shift](shift-create.md) |
 
-## Make your first API call – *List all tasks*
+### Workers
 
-Assume that you’re already enrolled in the To-Do service and you want to list all tasks as a first call to the API.
+| :--------------: | :--------------: |
+| GET | [List all workers](get-all-workers.md) |
+| GET | [List workers by ID](get-workers-by-id.md) |
+| GET | [List workers by email](users-get-user-by-email.md) |
+| POST | [Create a worker](create-worker.md) |
+| PUT | [Update worker by ID](update-worker-by-id.md) |
+| PATCH | [Update worker email](change-user-email.md) |
+| PATCH | [Update a worker property](update-worker-with-patch.md) |
+| CREATE | [Create a worker](worker-create.md) |
 
-Let’s test making this simple request to the [`task`](task) resource.  You’ll use cURL to make the API call.
+## Make your first API call – *List all shifts*
+
+Assume that you’re already enrolled in the Who's Working service and you want to list all shifts as a first call to the API.
+
+Let’s test making this simple request to the [`shifts`](task) resource. You’ll use cURL to make the API call.
 
 ```bash
 
-curl http://localhost:3000/tasks
+curl http://localhost:3000/shifts
 ```
 
-If the call was successful, the response you receive will be a list of tasks from the To-Do service such as you see in this example:
+If the call is successful, the response you receive will be a list of shifts from the Who's Workign service such as you see in this example:
 
 ```js
 
   {
-    "user_id": 1,
-    "title": "Grocery shopping",
-    "description": "eggs, bacon, gummy bears",
-    "due_date": "2024-02-20T17:00",
-    "warning": "-10",
-    "id": "1"
+        "id": "1",
+        "date": "2024-06-01",
+        "start_time": "0700",
+        "shift_length": "4",
+        "warning": "opening",
+        "location_detail": "Eatons Centre",
+        "status": "open"
   },
   {
-    "user_id": 1,
-    "title": "Piano recital",
-    "description": "Daughter's first concert appearance",
-    "due_date": "2024-04-02T15:00",
-    "warning": "-30",
-    "id": "2"
+        "id": "2",
+        "date": "2024-06-03",
+        "start_time": "1030",
+        "shift_length": "4",
+        "warning": "none",
+        "location_detail": "Yorkville Mall",
+        "status": "open"
   },
   {
-    "user_id": 2,
-    "title": "Oil change",
-    "description": "5K auto service",
-    "due_date": "2024-03-10T09:00",
-    "warning": "-60",
-    "id": "3"
-  },
-  {
-    "user_id": 3,
-    "title": "Get shots for dog",
-    "description": "Annual vaccinations for poochy",
-    "due_date": "2024-05-11T14:00",
-    "warning": "-20",
-    "id": "4"
+        "id": "3",
+        "date": "2024-06-04",
+        "start_time": "1430",
+        "shift_length": "4",
+        "warning": "closing",
+        "location_detail": "Yonge-Bloor",
+        "status": "open"
   }
 
 ```
@@ -111,6 +117,6 @@ cURL comes installed by default on Mac operating systems. If you need to, instal
 
 ## Next steps
 
-Now that you’ve everything set up correctly, you’re good to go and can take full advantage of the To-Do service API! Go ahead and start posting new tasks or enrolling new users. You’ll see how easy the API is to use.
+Now that you’ve everything set up correctly, you’re good to go and can take full advantage of the Who's Working service API! Go ahead and start posting new shofts or creating new workers. You’ll see how easy the API is to use.
 
-If you need more guidance, the Tutorials section of the API documentation walks through any task you’ll want to do. The finer details of the supported resources, endpoints and properties are in the API reference section. For more information, go [here](../index.md).
+If you need more guidance, the Tutorials section of the API documentation walks through a common task you’ll want to do. The finer details of the supported resources, endpoints and properties are in the API reference section. For more information, go [here](../index.md).
