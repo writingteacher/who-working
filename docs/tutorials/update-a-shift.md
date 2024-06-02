@@ -4,7 +4,7 @@ layout: page
 
 # Tutorial: Find a specific shift and update two properties
 
-In this tutorial, you learn how to find a shift and update properties with the `PATCH` METHOD. The use case is very practical - a store manager creates a new shift by locating an old shift and then changing the shift date and status (from CLOSED to OPEN). Knowing how to update a shift helps store managers save time. They can quickly generate new a shift from a previous record and avoid creating a new shift from scratch.
+In this tutorial, you learn how to find a shift and update properties with the `PATCH` METHOD. The use case is very practical - a store manager creates a new shift by locating an old one with a **CLOSED** status and then changing the shift date and status (from CLOSED to OPEN). Knowing how to update a shift helps store managers save time. They can quickly generate new a shift from a previous record and avoid creating a new shift from scratch.
 
 Expect this tutorial to take about 15 minutes to complete.
 
@@ -12,9 +12,9 @@ Expect this tutorial to take about 15 minutes to complete.
 
 Make sure you've completed the [Before you start a tutorial](before-you-start-a-tutorial) topic on the development system you'll use for the tutorial.
 
-## Find an existing shift
+## Locating an existing shift
 
-The first step is to display a list of shifts with the CLOSED status, find the record that needs to be updated, and note the ID number. Viewing specific a shift record requires the `GET` method.
+The first step is to display a list of shifts with the CLOSED status, find the record that needs to be updated, and note the ID number. Viewing a specific shift record requires the `GET` method.
 
 1. Open the Postman app on your desktop.
 1. In the Postman app, create a new request with these values:
@@ -23,7 +23,7 @@ The first step is to display a list of shifts with the CLOSED status, find the r
     * **Headers**:`Content-Type: application/json`
     * **Request body**: None
 
-1. In the Postman app, choose **Send** to make the request. The service returns a JSON object that contains all closed shifts. Each shift has the following format. Note the `id` of the shift to update.
+1. In the Postman app, select **Send** to make the request. The service returns a JSON object that contains all closed shifts. Each shift has the following format. Note the `id` of the shift to update.
 
 ```js
 {
@@ -46,7 +46,7 @@ The first step is to display a list of shifts with the CLOSED status, find the r
 } 
 ```
 
-## Update shift information
+## Updating shift information
 
 Now that you know the shift `id`, send a PATCH request to the /shifts/{id} endpoint to update the record.
 
@@ -64,7 +64,7 @@ In the Request Body, add the properties and parameters that require an update. I
 ```js
 {
     "date": "2024-07-13",
-    "status": "closed"
+    "status": "open"
 }
 ```
 
