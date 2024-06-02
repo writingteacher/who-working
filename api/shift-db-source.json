@@ -95,7 +95,7 @@
       "shift_length": "6",
       "warning": "opening",
       "location_detail": "Eatons Centre",
-      "status": "open"
+      "status": "closed"
     },
     {
       "id": "03d3",
@@ -113,7 +113,7 @@
       "shift_length": "6",
       "warning": "opening",
       "location_detail": "Eatons Centre",
-      "status": "open"
+      "status": "closed"
     }
   ]
 }
