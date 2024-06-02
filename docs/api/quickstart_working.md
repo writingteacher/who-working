@@ -63,14 +63,13 @@ To build your API call, you must have the following components:
 | PATCH | [Update a worker property](update-worker-with-patch.md) |
 | CREATE | [Create a worker](worker-create.md) |
 
-## Make your first API call – *List all shifts*
+## Making your first API call – *List all shifts*
 
 Assume that you’re already enrolled in the Who's Working service and you want to list all shifts as a first call to the API.
 
 Let’s test making this simple request to the [`shifts`](task) resource. You’ll use cURL to make the API call.
 
 ```bash
-
 curl http://localhost:3000/shifts
 ```
 
@@ -119,4 +118,4 @@ cURL comes installed by default on Mac operating systems. If you need to, instal
 
 Now that everything is set up correctly, you can take full advantage of the Who's Working service API! Go ahead and start posting new shifts or creating new workers. You’ll see how easy the API is to use.
 
-If you need more guidance, the [Tutorials](../tutorials/before-you-start-a-tutorial.md) section of the API documentation walks through a common shift task. The finer details of the supported resources, endpoints and properties are in the API reference section. For more information, go [here](../index.md).
+If you need more guidance, the [Tutorials](../tutorials/update-a-shift.md) section of the API documentation walks through a common shift task. The finer details of the supported resources, endpoints and properties are in the API reference section. For more information, go [here](../index.md).
