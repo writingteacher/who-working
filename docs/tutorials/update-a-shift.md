@@ -23,7 +23,12 @@ The first step is to display a list of shifts with the CLOSED status, find the r
     * **Headers**:`Content-Type: application/json`
     * **Request body**: None
 
-1. In the Postman app, select **Send** to make the request. The service returns a JSON object that contains all closed shifts. Each shift has the following format. Note the `id` of the shift to update.
+Sample call for shift ID 81a2.
+```bash
+curl --location 'http://localhost:3000/shifts?id=81a2'
+```
+
+In the Postman app, select **Send** to make the request. The service returns a JSON object that contains all closed shifts. Each shift has the following format. Note the `id` of the shift to update.
 
 ```js
 {
@@ -58,6 +63,16 @@ In Postman, create a new request with these values:
 * **URL**: `{base_url}/shifts/{id}`
 * **Headers**:`Content-Type: application/json`
 * **Request body**: None
+
+Sample call for shift ID 81a2.
+```bash
+curl --location --request PATCH 'http://localhost:3000/shifts/81a2' \
+--header 'Content-Type: application/json' \
+--data '{
+    "date": "2024-07-13",
+    "status": "open"
+}'
+```
 
 In the Request Body, add the properties and parameters that require an update. In this example, the date changes to July 13, and the status changes from `OPEN` to `CLOSED`.
 
