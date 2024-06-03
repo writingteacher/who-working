@@ -4,7 +4,7 @@ layout: page
 
 # Tutorial: Find a specific shift and update two properties
 
-In this tutorial, you learn how to find a shift and update properties with the `PATCH` METHOD. The use case is very practical - a store manager creates a new shift by locating an old one with a **CLOSED** status and then changing the shift date and status (from CLOSED to OPEN). Knowing how to update a shift helps store managers save time. They can quickly generate new a shift from a previous record and avoid creating a new shift from scratch.
+In this tutorial, you learn how to find a shift and update properties with the `PATCH` METHOD. The use case is very practical - a store manager creates a new shift by locating an old one with a **CLOSED** status and then changing the shift date and status (from CLOSED to OPEN). Knowing how to update a shift helps store managers save time. They can quickly generate anew  shift from a previous record and avoid creating a new shift from scratch.
 
 Expect this tutorial to take about 15 minutes to complete.
 
