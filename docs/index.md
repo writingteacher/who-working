@@ -47,52 +47,7 @@ After your system is ready, open the tutorial and learn how to perform common ta
 
 ## API reference docs
 
-Detailed descriptions of the service's resources.
+Detailed descriptions of the service's resources. The API reference docs refer to a `{base_url}` when they refer to the URL of a resource. The `{base_url}` value depends on the installation of the service. When running a local test, the `{base_url}` is generally `http://localhost:3000`.
 
-The API reference docs refer to a `{base_url}` when they refer to the URL of a resource. The `{base_url}` value depends
-on the installation of the service. When running a local test, the `{base_url}` is generally `http://localhost:3000`.
-
-### [Workers resource api/workers](api/workers)
-
-READ (GET)
-
-* Get all workers
-* Get worker by availability
-* Get worker by property
-
-CREATE (POST)
-
-* Create worker
-
-UPDATE (PUT/PATCH)
-
-* Change worker email
-* Change worker property
-
-DELETE
-
-* Delete worker by ID
-
-### [Shifts resource api/shifts](api/shifts)
-
-READ (GET)
-
-* Get all shifts
-* Get shift by status
-* Get shift by property
-
-CREATE (POST)
-
-* Create a shift
-
-COPY (COPY)
-
-* Copy a shift
-
-UPDATE (PUT/PATCH)
-
-* Update a shift with PATCH
-
-DELETE
-
-* Delete a shift
+* [Shifts resource api/shifts](api/shifts_resource)
+* [Workers resource api/workers](api/workers_resource)
