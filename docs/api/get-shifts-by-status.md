@@ -5,11 +5,11 @@ layout: page
 
 Gets a list of shifts filtered by their `OPEN` or `CLOSED` status.
 
-== HTTP method
+## HTTP method
 
 GET
 
-== URL
+## URL
 
 ```shell
 {server_url}/shifts?status={status}
@@ -19,7 +19,7 @@ GET
 
 | Parameter name | Type | Description |
 | -------------- | ------ | ------------ |
-| `status` | String | The status of the shift. The staus options are OPEN or CLOSED. |
+| `status` | string | The status of the shift. The staus options are OPEN or CLOSED. |
 
 ## Request headers
 
@@ -49,7 +49,7 @@ curl --location --request GET 'http://localhost:3000/shifts?status=closed' \
 }'
 ```
 
-== Return body
+## Return body
 
 ```js
 [
