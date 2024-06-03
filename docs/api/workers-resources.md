@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-# `shifts` resource
+# `workers` resource
 
 Base endpoint:
 

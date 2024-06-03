@@ -19,7 +19,7 @@ The first step is to display a list of shifts with the CLOSED status, find the r
 1. Open the Postman app on your desktop.
 1. In the Postman app, create a new request with these values:
     * **METHOD**: GET
-    * **URL**: `{base_url}/shifts?status=closed`
+    * **URL**: `{server_url}/shifts?status=closed`
     * **Headers**:`Content-Type: application/json`
     * **Request body**: None
 
@@ -60,7 +60,7 @@ To update the task description:
 In Postman, create a new request with these values:
 
 * **METHOD**: PATCH
-* **URL**: `{base_url}/shifts/{id}`
+* **URL**: `{server_url}/shifts/{id}`
 * **Headers**:`Content-Type: application/json`
 * **Request body**: None
 
@@ -104,5 +104,5 @@ Now that you have verified this API workflow in Postman, you’re ready to integ
 
 ## Related Topics
 
-* Shifts resource
-* Workers resource
+* [Shifts resources](api/shifts-resource.md)
+* [Workers resources](api/workers-resources.md)

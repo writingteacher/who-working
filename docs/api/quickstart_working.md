@@ -32,7 +32,7 @@ In Version 1, quickservice managers are responsible for managing shift and worke
 
 To build your API call, you must have the following components:
 
-* **A host.**  The {base_url} depends on users' installation of the service in their development environment. For v1 of the service API, the **base_url** variable is typically set to `http://localhost:3000`.
+* **A host.**  The {server_url} depends on users' installation of the service in their development environment. For v1 of the service API, the **server_url** variable is typically set to `http://localhost:3000`.
 * **Authorization.**  For v1 of the service, requests do not use any authorization. All endpoints are available to all users and applications.
 * **A request.**  The service REST API enables CRUD operations via HTTP requests on database resources (`GET`, `POST`, `PUT`, `PATCH`, and `DELETE` methods). Request and response bodies are encoded as JSON.
 
