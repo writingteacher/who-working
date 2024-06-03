@@ -61,7 +61,7 @@ curl --location --request DELETE 'http://localhost:3000/shifts/5a9b' \
 ## Return body
 
 ```js
-[
+{
     "id": "5a9b",
     "date": "2024-08-11",
     "start_time": "0700",
@@ -69,7 +69,7 @@ curl --location --request DELETE 'http://localhost:3000/shifts/5a9b' \
     "warning": "opening",
     "location_detail": "Eatons Centre",
     "status": "open"
-]
+}
 ```
 
 ## Return status
