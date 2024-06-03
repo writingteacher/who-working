@@ -4,16 +4,16 @@ layout: page
 
 # Create a shift
 
-Create a new restaurant shift.
+Permanently remove a restaurant shift from the service. Before deleting a shift, the user must locate an existing shift by the ID.
 
 ## HTTP method
 
-POST
+DELETE
 
 ## URL
 
 ```shell
-{server_url}/shifts
+{server_url}/shifts/{id}
 ```
 
 ## Request headers
@@ -26,31 +26,33 @@ POST
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `date`    | String | The date (YYYY-MM-DD) of the work shift. Use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format.|
-| `start_time` | Integer | The shift's start time. Use 24 clock time with no colon.|
-| `shift_length` | Decimal | The shift length measured in hours. Use numbers with one decimal place (e.g. 4.5).|
-| `location_detail`  | String | A short description of the restaurant's location.|
-| `status`  | String | The shift is **Open** (waiting to fill the positon) or **Closed** (the positon is no longer available).|
+| `id`     | number | The unique ID assigned to the shift.  |
 
 ## Example request body
 
 ```json
-{
-        "date": "2024-07-21",
+[
+        {
+        "date": "2024-08-11",
         "start_time": "0700",
-        "shift_length": "6",
+        "shift_length": "6.5",
+        "warning": "opening",
         "location_detail": "Eatons Centre",
         "status": "open"
-}
+        }
+]
+```
+
 ```
 
 ```bash
-curl --location 'http://localhost:3000/shifts' \
+curl --location --request DELETE 'http://localhost:3000/shifts/5a9b' \
 --header 'Content-Type: application/json' \
 --data '{
-        "date": "2024-07-21",
+        "date": "2024-08-11",
         "start_time": "0700",
-        "shift_length": "6",
+        "shift_length": "6.5",
+        "warning": "opening",
         "location_detail": "Eatons Centre",
         "status": "open"
 }'
@@ -60,15 +62,13 @@ curl --location 'http://localhost:3000/shifts' \
 
 ```js
 [
-    {
-    "id": "df91",
-    "date": "2024-07-21",
+    "id": "5a9b",
+    "date": "2024-08-11",
     "start_time": "0700",
-    "shift_length": "6",
+    "shift_length": "6.5",
     "warning": "opening",
     "location_detail": "Eatons Centre",
     "status": "open"
-    }
 ]
 ```
 

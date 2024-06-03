@@ -30,13 +30,13 @@ Sample `workers` resource.
 
 | Property name | Type | Description | 
 | ------------- | ----------- | ----------- | 
-| `id`     | Number | The unique ID assigned to the worker.|
-| `last_name`    | String | The worker's family name. |
-| `first_name`    | String | The worker's given name. |
-| `email` | String | The worker's email address.|
-| `phone` | String | The worker's phone number.|
-| `available_days` | String | The worker's availability. The user enters one option: Weekdays, Weekends, or Both.|
-| `available_time` | String | The worker's availability during the day. The user enters one or more options: Open, Mornings, Afternoons, Evenings, Close, or All.|
+| `id`     | number | The unique ID assigned to the worker.|
+| `last_name`    | string | The worker's family name. |
+| `first_name`    | string | The worker's given name. |
+| `email` | string | The worker's email address.|
+| `phone` | string | The worker's phone number.|
+| `available_days` | string | The worker's availability. The user enters one option: Weekdays, Weekends, or Both.|
+| `available_time` | string | The worker's availability during the day. The user enters one or more options: Open, Mornings, Afternoons, Evenings, Close, or All.|
 
 ## Operations
 

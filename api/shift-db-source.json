@@ -114,15 +114,6 @@
       "warning": "opening",
       "location_detail": "Eatons Centre",
       "status": "closed"
-    },
-    {
-      "id": "df91",
-      "date": "2024-07-21",
-      "start_time": "0700",
-      "shift_length": "6",
-      "warning": "opening",
-      "location_detail": "Eatons Centre",
-      "status": "closed"
     }
   ]
 }
