@@ -1,7 +1,7 @@
 layout: page
 ---
 
-# Chanhge the status of a shift
+# Change the status of a shift
 
 Update the status of a shift. Set a shift to OPEN or CLOSED. Before updating a shift, the user must locate an existing shift by the ID.
 
@@ -25,8 +25,8 @@ PATCH
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `id`     | Number | The unique ID assigned to the shift.  |
-| `status`  | String | The shift is **Open** (waiting to fill the positon) or **Closed** (the positon is no longer available).|
+| `id`     | number | The unique ID assigned to the shift.  |
+| `status`  | string | The shift is **Open** (waiting to fill the positon) or **Closed** (the positon is no longer available).|
 
 ## Example request body
 
