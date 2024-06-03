@@ -9,7 +9,7 @@ Base endpoint:
 {server_url}/workers
 ```
 
-Contains information about the workers saved to the Who's Working service. In Version 1, only registered store managers can create a worker record. In Version 2, the roadmap includes a feature that will allow registered workers to their own record on the app.
+Contains information about the workers saved to the Who's Working service. In Version 1, only registered store managers can create a worker record. In Version 2, the roadmap includes a feature that will allow registered workers to create and update their own record on the app.
 
 ## Resource properties
 
