@@ -104,5 +104,5 @@ Now that you have verified this API workflow in Postman, you’re ready to integ
 
 ## Related Topics
 
-* [Shifts resources](/api/shifts-resources.md)
-* [Workers resources](api/workers-resources.md)
+* [Shifts resources](../api/shifts-resources.md)
+* [Workers resources](../api/workers-resources.md)
