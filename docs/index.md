@@ -47,7 +47,7 @@ After your system is ready, open the tutorial and learn how to perform common ta
 
 ## API reference docs
 
-Detailed descriptions of the service's resources. The API reference docs refer to a `{server_url}` when they refer to the URL of a resource. The `{server_url}` value depends on the installation of the service. When running a local test, the `{server_url}` is generally `http://localhost:3000`.
+Click a link to read detailed descriptions of the service's resources. The API reference docs refer to a `{server_url}` when they refer to the URL of a resource. The `{server_url}` value depends on the installation of the service. When running a local test, the `{server_url}` is generally `http://localhost:3000`.
 
 * [Shifts resources](api/shifts-resources.md)
 * [Workers resources](api/workers-resources.md)
