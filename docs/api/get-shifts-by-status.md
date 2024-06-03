@@ -12,7 +12,7 @@ GET
 ## URL
 
 ```shell
-{server_url}/shifts?status={status}
+{server_url}/shifts?status={value}
 ```
 
 ## Params
@@ -31,13 +31,13 @@ GET
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `status` | string | The status of the shift. The status options are OPEN or CLOSED.  |
+| `status` | string | Open or closed.  |
 
 ## Example request body
 
 ```json
 {
-        "status": "closed"
+    "status": "closed"
 }
 ```
 
