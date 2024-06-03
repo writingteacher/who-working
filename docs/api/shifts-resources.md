@@ -29,13 +29,13 @@ Sample `shifts` resource.
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `id`     | Number | The unique ID assigned to the shift.  |
-| `date`    | String | The date (YYYY-MM-DD) of the work shift. Use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format.|
-| `start_time` | Integer | The shift's start time. Use 24 clock time with no colon.|
-| `shift_length` | Decimal | The shift length measured in hours. Use numbers with one decimal place (e.g. 4.5).|
-| `warning`     | Number | The number of hours and minutes relative to the `date` to alert workers of the shift. This is normally a negative number to alert the user before the `date`. |
-| `location_detail`  | String | A short description of the restaurant's location.|
-| `status`  | String | The shift is **Open** (waiting to fill the positon) or **Closed** (the positon is no longer available).|
+| `id`     | number | The unique ID assigned to the shift.  |
+| `date`    | string | The date (YYYY-MM-DD) of the work shift. Use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format.|
+| `start_time` | integer | The shift's start time. Use 24 clock time with no colon.|
+| `shift_length` | decimal | The shift length is measured in hours. Use numbers with one decimal place (e.g. 4.5).|
+| `warning`     | number | The number of hours and minutes relative to the `date` to alert workers of the shift. This is normally a negative number to alert the user before the `date`. |
+| `location_detail`  | string | A short description of the restaurant's location.|
+| `status`  | string | The shift is **Open** (waiting to fill the position) or **Closed** (the position is no longer available).|
 
 ## Operations
 
