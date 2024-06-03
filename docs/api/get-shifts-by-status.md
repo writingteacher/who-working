@@ -1,7 +1,7 @@
 layout: page
 ---
 
-= Get shifts by status
+# Get shifts by status
 
 Gets a list of shifts filtered by their `OPEN` or `CLOSED` status.
 
@@ -15,25 +15,25 @@ GET
 {server_url}/shifts?status={status}
 ```
 
-== Params
+## Params
 
 | Parameter name | Type | Description |
 | -------------- | ------ | ------------ |
 | `status` | String | The status of the shift. The staus options are OPEN or CLOSED. |
 
-== Request headers
+## Request headers
 
 | Key | Value |
 |---|---|
 | Content-Type | application/json |
 
-== Request body parameters
+## Request body parameters
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `status` | string | The status of the shift. The staus options are OPEN or CLOSED.  |
+| `status` | string | The status of the shift. The status options are OPEN or CLOSED.  |
 
-== Example request body
+## Example request body
 
 ```json
 {
@@ -83,7 +83,7 @@ curl --location --request GET 'http://localhost:3000/shifts?status=closed' \
 ]
 ```
 
-== Return status
+## Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
