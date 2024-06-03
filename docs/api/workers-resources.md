@@ -9,9 +9,11 @@ Base endpoint:
 {server_url}/workers
 ```
 
-Contains information about the workers saved to the Who's Working service. In Version 1, only registered store managers can create a worker record. In Version 2, the roadmap includes a feature that allows registered workers to create a worker record on the app.
+Contains information about the workers saved to the Who's Working service. In Version 1, only registered store managers can create a worker record. In Version 2, the roadmap includes a feature that will allow registered workers to their own record on the app.
 
-Sample `workers` resource
+## Resource properties
+
+Sample `workers` resource.
 
 ```js
 {
@@ -25,11 +27,10 @@ Sample `workers` resource
 }
 ```
 
-The following example shows the response. Note that the names should be the same as you used in your Request body and the response should include the new user’s id. The user’s id is automatically generated when the user is created.
 
 | Property name | Type | Description | 
 | ------------- | ----------- | ----------- | 
-| `id`     | Number | The unique ID assigned to the shift.|
+| `id`     | Number | The unique ID assigned to the worker.|
 | `last_name`    | String | The worker's family name. |
 | `first_name`    | String | The worker's given name. |
 | `email` | String | The worker's email address.|
