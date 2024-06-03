@@ -1,9 +1,11 @@
-# Reference:  Get tasks by a property
+# Reference: Get shifts by a property
+
 ## URL
+
 ```
 {base_url}/tasks?{property}={value}
 ```
-Gets a list of tasks matching the specified property.
+Gets a list of shifts matching the specified property.
 
 ## Required parameters
 
