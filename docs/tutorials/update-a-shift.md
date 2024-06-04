@@ -66,7 +66,7 @@ In the Postman app, select **Send** to make the request. The service returns a J
 
 Now that you know the shift `id`, send a PATCH request to the /shifts/{id} endpoint to update the record.
 
-To update the task description:
+To update shift properties:
 
 In Postman, create a new request with these values:
 
