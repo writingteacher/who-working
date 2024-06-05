@@ -4,7 +4,7 @@ layout: page
 
 # Tutorial: Find a specific shift and update two properties
 
-In this tutorial, you learn how to find a shift and update properties with the `PATCH` METHOD. The use case is very practical - a store manager creates a new shift by locating an old one with a **CLOSED** status and then changing the shift date and status (from CLOSED to OPEN). Knowing how to update a shift helps store managers save time. They can quickly generate new a shift from a previous record and avoid creating a new shift from scratch.
+In this tutorial, you learn how to find a shift and update properties with the `PATCH` METHOD. The use case is very practical - a store manager creates a new shift by locating an old one with a **CLOSED** status and then changing the shift date and status (from CLOSED to OPEN). Knowing how to update a shift helps store managers save time. They can quickly generate a new shift from a previous record and avoid creating a new shift from scratch.
 
 Expect this tutorial to take about 15 minutes to complete.
 
@@ -19,66 +19,76 @@ The first step is to display a list of shifts with the CLOSED status, find the r
 1. Open the Postman app on your desktop.
 1. In the Postman app, create a new request with these values:
     * **METHOD**: GET
-    * **URL**: `{base_url}/shifts?status=closed`
+    * **URL**: `{server_url}/shifts?status=closed`
     * **Headers**:`Content-Type: application/json`
     * **Request body**: None
 
-Sample call for shift ID 81a2.
+Sample call.
 ```bash
-curl --location 'http://localhost:3000/shifts?id=81a2'
+curl --location 'http://localhost:3000/shifts?status=closed'
 ```
 
 In the Postman app, select **Send** to make the request. The service returns a JSON object that contains all closed shifts. Each shift has the following format. Note the `id` of the shift to update.
 
 ```js
-{
-    "id": "03b6",
-    "date": "2024-06-11",
-    "start_time": "0900",
-    "shift_length": "6",
-    "warning": "opening",
-    "location_detail": "Eatons Centre",
-    "status": "closed"
-},
-{
-    "id": "03d3",
-    "date": "2024-06-11",
-    "start_time": "0900",
-    "shift_length": "6",
-    "warning": "opening",
-    "location_detail": "Eatons Centre",
-    "status": "closed"
-} 
+[
+    {
+        "id": "03b6",
+        "date": "2024-07-13",
+        "start_time": "0900",
+        "shift_length": "6",
+        "warning": "opening",
+        "location_detail": "Eatons Centre",
+        "status": "closed"
+    },
+    {
+        "id": "03d3",
+        "date": "2024-06-11",
+        "start_time": "0900",
+        "shift_length": "6",
+        "warning": "opening",
+        "location_detail": "Eatons Centre",
+        "status": "closed"
+    },
+    {
+        "id": "81a2",
+        "date": "2024-06-11",
+        "start_time": "0900",
+        "shift_length": "6",
+        "warning": "opening",
+        "location_detail": "Eatons Centre",
+        "status": "closed"
+    }
+]
 ```
 
 ## Updating shift information
 
 Now that you know the shift `id`, send a PATCH request to the /shifts/{id} endpoint to update the record.
 
-To update the task description:
+To update shift properties:
 
 In Postman, create a new request with these values:
 
 * **METHOD**: PATCH
-* **URL**: `{base_url}/shifts/{id}`
+* **URL**: `{server_url}/shifts/{id}`
 * **Headers**:`Content-Type: application/json`
-* **Request body**: None
 
-Sample call for shift ID 81a2.
+Sample call for shift ID 03b6.
 ```bash
-curl --location --request PATCH 'http://localhost:3000/shifts/81a2' \
+curl --location --request PATCH 'http://localhost:3000/shifts/03b6' \
 --header 'Content-Type: application/json' \
---data '{
-    "date": "2024-07-13",
+--data ' {
+    "date": "2024-07-22",
     "status": "open"
 }'
 ```
 
-In the Request Body, add the properties and parameters that require an update. In this example, the date changes to July 13, and the status changes from `OPEN` to `CLOSED`.
+In the Request Body, add the properties and parameters that require an update. In this example, the date changes to July 22, and the status changes from `CLOSED` to `OPEN`.
 
 ```js
 {
-    "date": "2024-07-13",
+    "date": "2024-07-22",
     "status": "open"
 }
 ```
@@ -88,7 +98,7 @@ Click **Send**. The service updates the shift record and returns a 200 OK along 
 ```js
 {
     "id": "03b6",
-    "date": "2024-07-13",
+    "date": "2024-07-22",
     "start_time": "0900",
     "shift_length": "6",
     "warning": "opening",
@@ -104,5 +114,5 @@ Now that you have verified this API workflow in Postman, you’re ready to integ
 
 ## Related Topics
 
-* Shifts resource
-* Workers resource
+* [Shifts resources](../api/shifts-resources.md)
+* [Workers resources](../api/workers-resources.md)

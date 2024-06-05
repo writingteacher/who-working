@@ -90,12 +90,12 @@
     },
     {
       "id": "03b6",
-      "date": "2024-07-13",
+      "date": "2024-07-22",
       "start_time": "0900",
       "shift_length": "6",
       "warning": "opening",
       "location_detail": "Eatons Centre",
-      "status": "closed"
+      "status": "open"
     },
     {
       "id": "03d3",

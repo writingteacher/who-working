@@ -1,17 +1,17 @@
-# Reference: Get shifts by a property
+# Reference: Get shifts by status
 
 ## URL
 
 ```
-{base_url}/tasks?{property}={value}
+{server_url}/shifts?{property}={value}
 ```
-Gets a list of shifts matching the specified property.
+Gets a list of shifts filtered by their OPEN or CLOSED status.
 
 ## Required parameters
 
 | Parameter name | Type | Description |
 | ---- | ---- | ---|
-| `property` | String | The property you want to use to get the tasks. See the **Properties** section below.|
+| `status` | String | The property you want to use to get the tasks. See the **Properties** section below.|
 | `value` | String or Number | The value of the property without the quotation marks. Case-sensitive. Partial matches aren't supported. 
 
 ## Properties
@@ -31,7 +31,7 @@ The `property` parameter can take the following values:
 ### Request
 
 ```
-{base_url}/tasks?title=Piano recital
+{server_url}/shifts?title=Piano recital
 ```
 ### Response
 
