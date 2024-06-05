@@ -78,4 +78,4 @@ curl --location --request DELETE 'http://localhost:3000/shifts/5a9b' \
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
 | 404 | Error | Specified user record not found |
-|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
