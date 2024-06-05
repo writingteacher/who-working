@@ -44,8 +44,8 @@ The `workers` resource supports these operations.
 
 ### READ (GET)
 
-* [Get all workers](workers-get-all-workers)
-* [Get workers by last name](workers-get-workers-by-last-name)
+* Get all workers
+* Get workers by last name
 * Get workers by ID
 * Get workers by available_days
 * Get workers by available time
@@ -53,14 +53,14 @@ The `workers` resource supports these operations.
 
 ### CREATE (POST)
 
-* [Create a worker](workers-create-worker)
+* Create a worker
 
 ### UPDATE (PUT/PATCH)
 
-* [Change a worker email](workers-change-worker-email)
+* Change a worker email
 * Update worker by ID
 * Change workers available_time
 
 ### DELETE
 
-* [Delete a worker by ID](workers-delete-worker-by-id)
+* Delete a worker by ID
