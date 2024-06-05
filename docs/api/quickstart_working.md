@@ -24,7 +24,7 @@ You might need to set up your development system and get going from scratch. Don
 
 The service REST API offers a wide range of integration possibilities, from enhancing internal workflow to creating customer-facing apps.
 
-The service has two resources: [`shifts`](shifts) and [`workers`](workers). The [`shifts`](shifts) resource lists all restaurant shifts created in the database, including OPEN and CLOSED shifts. The [`workers`](workers) resource lists all trained workers who expressed an interest on working on an on-call basis for the quickservice location.
+The service has two resources: [`shifts`](shifts-resources.md) and [`workers`](workers-resources.md). The [`shifts`](shifts-resources.md) resource lists all restaurant shifts created in the database, including OPEN and CLOSED shifts. The [`workers`](workers-resources.md) resource lists all trained workers who expressed an interest on working on an on-call basis for the quickservice location.
 
 In Version 1, quickservice managers are responsible for managing shift and worker records. That includes creating, editing, and deleting records. Managers are also reponsible for pro-actively scanning the list of workers for possible matches. If they find a match, the manger contacts the worker via email or phone and continues the discussion off-app. In Version 2, workers who sign up for the service will have access to the app. They will be able to search for available shifts that align with their schedules and contact the shift manager.
 
@@ -42,32 +42,32 @@ To build your API call, you must have the following components:
 
 | :--------------: | :--------------: |
 | HTTP Method | Endpoint |
-| GET | [List all shifts](get-all-shifts.md) |
-| GET | [List shifts by ID](get-shifts-by-id.md) |
-| GET | [List shift by date](get-shift-by-date.md) |
-| POST | [Create a shift](create-shift.md) |
-| PUT | [Update shift by ID](update-shift-by-id.md) |
-| PATCH | [Update shift properties](change-shift-property.md) |
-| CREATE | [Create a shift](shift-create.md) |
+| GET | List all shifts |
+| GET | List shifts by ID |
+| GET | List shift by date |
+| POST | Create a shift |
+| PUT | Update shift by ID |
+| PATCH | Update shift properties |
+| CREATE | Create a shift |
 
 #### Workers
 
 | :--------------: | :--------------: |
 | HTTP Method | Endpoint |
-| GET | [List all workers](get-all-workers.md) |
-| GET | [List workers by ID](get-workers-by-id.md) |
-| GET | [List workers by email](users-get-user-by-email.md) |
-| POST | [Create a worker](create-worker.md) |
-| PUT | [Update worker by ID](update-worker-by-id.md) |
-| PATCH | [Update worker email](change-user-email.md) |
-| PATCH | [Update a worker property](update-worker-with-patch.md) |
-| CREATE | [Create a worker](worker-create.md) |
+| GET | List all workers |
+| GET | List workers by ID |
+| GET | List workers by email |
+| POST | Create a worker|
+| PUT | Update worker by ID |
+| PATCH | Update worker email |
+| PATCH | Update a worker property |
+| CREATE | Create a worker |
 
 ## Making your first API call – *List all shifts*
 
 Assume that you’re already enrolled in the Who's Working service and you want to list all shifts as a first call to the API.
 
-Let’s test making this simple request to the [`shifts`](task) resource. You’ll use cURL to make the API call.
+Let’s test making this simple request to the [`shifts`](shifts-resources.md) resource. You’ll use cURL to make the API call.
 
 ```bash
 curl http://localhost:3000/shifts
