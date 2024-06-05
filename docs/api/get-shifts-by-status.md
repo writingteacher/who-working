@@ -20,7 +20,7 @@ GET
 
 | Parameter name | Type | Description |
 | -------------- | ------ | ------------ |
-| `status` | string | The status of the shift. The staus options are OPEN or CLOSED. |
+| `status` | string | The status of the shift. The status options are OPEN or CLOSED. |
 
 ## Request headers
 
@@ -90,4 +90,4 @@ curl --location --request GET 'http://localhost:3000/shifts?status=closed' \
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
 | 404 | Error | Specified user record not found |
-|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
