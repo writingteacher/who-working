@@ -2,10 +2,9 @@
 layout: page
 ---
 
-# Before you  start a tutorial
+# Before you start a tutorial
 
-You'll need to complete these steps before you can run
-the **Who's Working** service tutorial.
+You'll need to complete these steps before you can run the **Who's Working** service tutorial.
 
 Expect this preparation to take about 20 minutes to complete.
 
@@ -90,4 +89,4 @@ Some common situations that cause errors include:
 4. A required software component isn't up to date.
 
 If you see the list of shifts from the service, you're ready to do
-the tutorial.
+a [tutorial](update-a-shift.md).
