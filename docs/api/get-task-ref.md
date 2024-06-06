@@ -1,4 +1,4 @@
-# Reference: Get shifts by a property
+# Get shifts by a property
 
 ## URL
 

@@ -27,7 +27,6 @@ Sample `workers` resource.
 }
 ```
 
-
 | Property name | Type | Description | 
 | ------------- | ----------- | ----------- | 
 | `id`     | number | The unique ID assigned to the worker.|
@@ -47,19 +46,18 @@ The `workers` resource supports these operations.
 * Get all workers
 * Get workers by last name
 * Get workers by ID
-* Get workers by available_days
+* [Get workers by available days](get_workers_days.md)
 * Get workers by available time
-
 
 ### CREATE (POST)
 
-* Create a worker
+* [Create a worker](create-worker.md)
 
 ### UPDATE (PUT/PATCH)
 
 * Change a worker email
 * Update worker by ID
-* Change workers available_time
+* Change workers available time
 
 ### DELETE
 
