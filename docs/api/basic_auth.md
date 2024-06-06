@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Basic authentification
+# Basic authentication
 
 API requests must provide your username and password in the HTTP Authorization header, encoded in Base64, in your API requests per the Basic Auth specification (see link below).
 
