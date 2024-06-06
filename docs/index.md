@@ -4,7 +4,7 @@ layout: page
 
 # Who's Working API Documentation
 
-Turn your app into a staffing solution
+### Turn your app into a staffing solution
 
 Who's Working is a cloud service that helps your shift managers find trained part-time workers and fill staffing positions. It's an ideal tool for quick service operations that experience last-minute staff changes. The lightweight API provides access to a list of trained part-time workers who might be available on short notice for a restaurant shift. The Who's Working API uses REST and returns HTTP response codes and responses encoded in JSON.
 
@@ -20,15 +20,17 @@ The Who's Working app uses [Basic Authentication](api/basic_auth.md).
 
 ## Quickstart
 
-[Quickstart](api/quickstart_working.md)
+This [quickstart](api/quickstart_working.md) article provides all the information you need to begin using Who's Working to fill last minute staffing vacancies. Expect to complete the quickstart tasks and make your first API call in about ten minutes.
 
-## Tutorials
+## Before you start
 
-Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system. Complete the set up once per development system.
+The tutorial listed in the next section is designed to run on your development system with Postman. Before you can run the tutorial, you need to set up your system. The good news is that you only need to complete the setup once per development system.
 
 * [Before you start a tutorial](tutorials/before-you-start-a-tutorial.md)
 
 After your system is ready, open the tutorial and learn how to perform common tasks.
+
+## Tutorials
 
 #### Shifts
 
