@@ -18,17 +18,17 @@ There are two resources.
 
 The Who's Working app uses [Basic Authentication](api/basic_auth.md).
 
+## Before you start
+
+The quickstart tasks and tutorial listed below are designed to run on your development system with Postman. Before running the quickstart or tutorial, you need to set up your system. The good news is that you only need to complete the setup once per development system.
+
+* [Before you start](tutorials/before-you-start-a-tutorial.md)
+
+After your system is ready, open the quickstart or tutorial and learn how to perform common tasks.
+
 ## Quickstart
 
 This [quickstart](api/quickstart_working.md) article provides all the information you need to begin using Who's Working to fill last minute staffing vacancies. Expect to complete the quickstart tasks and make your first API call in about ten minutes.
-
-## Before you start
-
-The tutorial listed in the next section is designed to run on your development system with Postman. Before you can run the tutorial, you need to set up your system. The good news is that you only need to complete the setup once per development system.
-
-* [Before you start a tutorial](tutorials/before-you-start-a-tutorial.md)
-
-After your system is ready, open the tutorial and learn how to perform common tasks.
 
 ## Tutorials
 
