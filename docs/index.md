@@ -10,7 +10,7 @@ Who's Working is a cloud service that helps your shift managers find trained par
 
 There are two resources.
 
-**Workers** - Part-time workers who sign up for the Who's Working service. The Workers resource includes endpoints to create, retrieve, update, and delete user information.
+**Workers** - A record for each part-time worker who agreed to have their name and contact information added to the Who's Working service. The Workers resource includes endpoints to create, retrieve, update, and delete user information. In Version 1, store managers create worker records. In version 2, workers will be able to create and update their own records (subject to store manager review and approval).
 
 **Shifts** - Available shifts in the restaurant created by the shift manager. Each shift describes the location, day and time, shift length, and warnings. The Shifts resource includes endpoints to create, retrieve, update, and delete shift records.
 
