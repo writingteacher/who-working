@@ -2,13 +2,13 @@
 layout: page
 ---
 
-# Before you start a tutorial
+# Before you start
 
-You'll need to complete these steps before you can run the **Who's Working** service tutorial.
+You'll need to complete these steps before you can run the **Who's Working** service quickstart tasks or tutorial.
 
 Expect this preparation to take about 20 minutes to complete.
 
-## Preparing for the tutorials
+## Getting ready
 
 The following instructions describe how to set up a system for a Windows machine. To prepare a MacOS machine for the tutorial, visit the MacOS installation guide.
 
@@ -40,8 +40,7 @@ Create and checkout a working branch of your **Who's Working** service clone. Yo
     cd < your GitHub repo workspace >
     ls
     # (see the who-working service directory in the list)
-    cd to-do-service
-    git checkout -b tutorial-test
+    cd who-working
     cd api
     json-server -w shift-db-source.json
     ```
@@ -50,13 +49,13 @@ If your development system is installed correctly, you should see the service st
 
 2. Make a test call to the service.
 
-    ```shell
+```json
     curl http://localhost:3000/shifts
-    ```
+```
 
 3. If the service is running correctly, you should see a list of shifts from the service, such as in this example.
 
-    ```js
+```js
     [
         {
         "id": "1",
@@ -88,5 +87,4 @@ Some common situations that cause errors include:
 3. A required software component didn't install correctly.
 4. A required software component isn't up to date.
 
-If you see the list of shifts from the service, you're ready to do
-a [tutorial](update-a-shift.md).
+If you see the list of shifts from the service, you're ready to do the [quickstart tasks](../api/quickstart_working.md) or a [tutorial](update-a-shift.md).

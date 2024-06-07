@@ -4,7 +4,7 @@ layout: page
 
 # Who's Working API Documentation
 
-Turn your app into a staffing solution
+### Turn your app into a staffing solution
 
 Who's Working is a cloud service that helps your shift managers find trained part-time workers and fill staffing positions. It's an ideal tool for quick service operations that experience last-minute staff changes. The lightweight API provides access to a list of trained part-time workers who might be available on short notice for a restaurant shift. The Who's Working API uses REST and returns HTTP response codes and responses encoded in JSON.
 
@@ -14,40 +14,42 @@ There are two resources.
 
 **Shifts** - Available shifts in the restaurant created by the shift manager. Each shift describes the location, day and time, shift length, and warnings. The Shifts resource includes endpoints to create, retrieve, update, and delete shift records.
 
-## Authentification
+## Authentication
 
 The Who's Working app uses [Basic Authentication](api/basic_auth.md).
 
+## Before you start
+
+The quickstart tasks and tutorial listed below are designed to run on your development system with Postman. Before running the quickstart or tutorial, you need to set up your system. The good news is that you only need to complete the setup once per development system.
+
+* [Before you start](tutorials/before-you-start-a-tutorial.md)
+
+After your system is ready, open the quickstart or tutorial and learn how to perform common tasks.
+
 ## Quickstart
 
-[Quickstart](api/quickstart_working.md)
+This [quickstart](api/quickstart_working.md) guide provides all the information you need to begin using Who's Working to fill last-minute staffing vacancies. Expect to complete the quickstart tasks and make your first API call in about ten minutes.
 
 ## Tutorials
-
-Learn how to do common tasks within the Who's Working service. Do this tutorial to set up your development system. Complete the set up once per development system.
-
-* [Before you start a tutorial](tutorials/before-you-start-a-tutorial.md)
-
-After your system is ready, open the tutorial and learn how to perform common tasks.
 
 #### Shifts
 
 * [Update a shift](tutorials/update-a-shift.md)
-* Create a shift
-* Edit a shift
-* Delete a shift
-* Get a shift by a property
+* Create a shift (coming soon)
+* Edit a shift (coming soon)
+* Delete a shift (coming soon)
+* Get a shift by a property (coming soon)
 
 #### Workers
 
-* Create a new worker
-* Update a specific worker's information
-* Delete a worker
-* Get a worker by a property
+* Create a new worker (coming soon)
+* Update a specific worker's information (coming soon)
+* Delete a worker (coming soon)
+* Get a worker by a property (coming soon)
 
 ## API reference docs
 
 Click a link to read detailed descriptions of the service's resources. The API reference docs refer to a `{server_url}` when they refer to the URL of a resource. The `{server_url}` value depends on the installation of the service. When running a local test, the `{server_url}` is generally `http://localhost:3000`.
 
-* [Shifts resources](api/shifts-resources.md)
-* [Workers resources](api/workers-resources.md)
+* Get the [Shifts](api/shifts-resources.md) endpoints and learn how to configure shift properties.
+* Get the [Workers](api/workers-resources.md) endpoints and learn how to configure worker-related properties.

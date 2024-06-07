@@ -6,7 +6,8 @@
       "first_name": "Ferdinand",
       "email": "f.smith@example.com",
       "phone": "416-555-1213",
-      "available": "mornings"
+      "available_days": "weekdays",
+      "available_time": "all"
     },
     {
       "id": "2",
@@ -14,7 +15,8 @@
       "first_name": "Jill",
       "email": "j.jones@example.com",
       "phone": "416-555-1212",
-      "available": "mornings"
+      "available_days": "both",
+      "available_time": "close"
     },
     {
       "id": "3",
@@ -22,7 +24,8 @@
       "first_name": "Marty",
       "email": "m.martinez@example.com",
       "phone": "416-555-1214",
-      "available": "afternoons"
+      "available_days": "weekends",
+      "available_time": "evenings"
     },
     {
       "id": "4",
@@ -30,7 +33,17 @@
       "first_name": "Bill",
       "email": "b.bailey@example.com",
       "phone": "416-555-1215",
-      "available": "weekends"
+      "available_days": "weekdays",
+      "available_time": "mornings"
+    },
+    {
+      "id": "c08e",
+      "last_name": "Green",
+      "first_name": "Jackie",
+      "email": "green@example.com",
+      "phone": "010-1212-1212",
+      "available_days": "both",
+      "available_time": "all"
     }
   ],
   "shifts": [
@@ -41,7 +54,7 @@
       "shift_length": "4",
       "warning": "opening",
       "location_detail": "Eatons Centre",
-      "status": "open"
+      "status": "closed"
     },
     {
       "id": "2",
