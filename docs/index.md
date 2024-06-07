@@ -28,7 +28,7 @@ After your system is ready, open the quickstart or tutorial and learn how to per
 
 ## Quickstart
 
-This [quickstart](api/quickstart_working.md) article provides all the information you need to begin using Who's Working to fill last minute staffing vacancies. Expect to complete the quickstart tasks and make your first API call in about ten minutes.
+This [quickstart](api/quickstart_working.md) article provides all the information you need to begin using Who's Working to fill last-minute staffing vacancies. Expect to complete the quickstart tasks and make your first API call in about ten minutes.
 
 ## Tutorials
 
@@ -51,5 +51,5 @@ This [quickstart](api/quickstart_working.md) article provides all the informatio
 
 Click a link to read detailed descriptions of the service's resources. The API reference docs refer to a `{server_url}` when they refer to the URL of a resource. The `{server_url}` value depends on the installation of the service. When running a local test, the `{server_url}` is generally `http://localhost:3000`.
 
-* [Shifts resources](api/shifts-resources.md)
-* [Workers resources](api/workers-resources.md)
+* Get the [Shifts resources](api/shifts-resources.md) endpoints and learn how to configure shift properties.
+* Get the [Workers resources](api/workers-resources.md) endpoints and learn how to configure worker-related properties.
