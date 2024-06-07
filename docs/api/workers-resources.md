@@ -43,22 +43,20 @@ The `workers` resource supports these operations.
 
 ### READ (GET)
 
-* Get all workers
-* Get workers by last name
-* Get workers by ID
-* [Get workers by available days](get_workers_days.md)
-* Get workers by available time
+* [Get all workers *endpoint*](get-all-workers.md)
+* [Get workers by last name *endpoint*](get-worker-by-last-name.md)
+* [Get workers by ID endpoint](get-worker-by-id)
+* [Get workers by available days *complete*](get_workers_days.md)
+* [Get workers by available time *endpoint*](get_workers_available_time.md)
 
 ### CREATE (POST)
 
-* [Create a worker](create-worker.md)
+* [Create a worker *complete*](create-worker.md)
 
 ### UPDATE (PUT/PATCH)
 
-* Change a worker email
-* Update worker by ID
-* Change workers available time
+* [Change a worker property by ID *endpoint*](change-worker-email.md)
 
 ### DELETE
 
-* Delete a worker by ID
+* [Delete a worker by ID *endpoint*](delete-worker-by-id.md)
