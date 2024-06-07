@@ -4,7 +4,7 @@ layout: page
 
 # Delete a worker
 
-Permanently remove a worker from the service.
+Permanently remove a worker record from the service.
 
 ## HTTP method
 
