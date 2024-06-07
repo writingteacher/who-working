@@ -43,7 +43,7 @@ The `shifts` resource supports these operations.
 
 ### READ (GET)
 
-* [Get shifts by status](get-shifts-by-status.md)
+* [Get shifts by status *complete*](get-shifts-by-status.md)
 * [Get all shifts endpoint](get-all-shifts.md)
 * [Get shift by ID endpoint](get-a-shift-by-id.md)
 * [Get shifts by date endpoint](get-shifts-by-date.md)
