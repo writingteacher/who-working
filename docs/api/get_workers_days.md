@@ -32,7 +32,7 @@ GET
 
 ```json
 {
-    "available_days"="weekdays"
+    "available_days":"weekdays"
 }
 ```
 

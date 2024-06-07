@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Create a wotker
+# Create a worker
 
 Create a restaurant worker record.
 

@@ -45,7 +45,7 @@ The `workers` resource supports these operations.
 
 * [Get all workers *endpoint*](get-all-workers.md)
 * [Get workers by last name *endpoint*](get-worker-by-last-name.md)
-* [Get workers by ID endpoint](get-worker-by-id)
+* [Get workers by ID *endpoint*](get-worker-by-id)
 * [Get workers by available days *complete*](get_workers_days.md)
 * [Get workers by available time *endpoint*](get_workers_available_time.md)
 
@@ -55,7 +55,7 @@ The `workers` resource supports these operations.
 
 ### UPDATE (PUT/PATCH)
 
-* [Change a worker property by ID *endpoint*](change-worker-email.md)
+* [Change a worker property by ID *endpoint*](change-worker-property-by-id.md)
 
 ### DELETE
 
