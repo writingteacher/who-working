@@ -51,5 +51,5 @@ This [quickstart](api/quickstart_working.md) article provides all the informatio
 
 Click a link to read detailed descriptions of the service's resources. The API reference docs refer to a `{server_url}` when they refer to the URL of a resource. The `{server_url}` value depends on the installation of the service. When running a local test, the `{server_url}` is generally `http://localhost:3000`.
 
-* Get the [Shifts resources](api/shifts-resources.md) endpoints and learn how to configure shift properties.
-* Get the [Workers resources](api/workers-resources.md) endpoints and learn how to configure worker-related properties.
+* Get the [Shifts](api/shifts-resources.md) endpoints and learn how to configure shift properties.
+* Get the [Workers](api/workers-resources.md) endpoints and learn how to configure worker-related properties.
