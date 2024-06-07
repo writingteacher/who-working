@@ -44,12 +44,10 @@ The `shifts` resource supports these operations.
 ### READ (GET)
 
 * [Get shifts by status](get-shifts-by-status.md)
-* Get all shifts
-* Get shift by ID
-* Get shifts by date
-* Get shifts by shift length
-* Get shifts by location detail
-
+* [Get all shifts endpoint](get-all-shifts.md)
+* [Get shift by ID endpoint](get-a-shift-by-id.md)
+* [Get shifts by date endpoint](get-shifts-by-date.md)
+* [Get shifts by shift length endpoint](get-shifts-by-length.md)
 
 ### CREATE (POST)
 
@@ -58,8 +56,7 @@ The `shifts` resource supports these operations.
 ### UPDATE (PUT/PATCH)
 
 * [Change shift status](change-shift-status.md)
-* Update shift by ID
-* Change shift date
+* [Update shift property by ID endpoint](change-shift-by-id.md)
 
 ### DELETE
 
