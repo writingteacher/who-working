@@ -51,13 +51,13 @@ The `shifts` resource supports these operations.
 
 ### CREATE (POST)
 
-* [Create a shift](create-shift.md)
+* [Create a shift *complete*](create-shift.md)
 
 ### UPDATE (PUT/PATCH)
 
-* [Change shift status](change-shift-status.md)
+* [Change shift status *complete*](change-shift-status.md)
 * [Update shift property by ID endpoint](change-shift-by-id.md)
 
 ### DELETE
 
-* [Delete a shift by ID](delete-shift-by-id.md)
+* [Delete a shift by ID *complete*](delete-shift-by-id.md)
