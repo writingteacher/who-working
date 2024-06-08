@@ -48,7 +48,6 @@ curl --location --request PATCH 'http://localhost:3000/shifts/df91' \
 ## Return body
 
 ```js
-[
     {
     "id": "df91",
     "date": "2024-07-21",
@@ -58,7 +57,6 @@ curl --location --request PATCH 'http://localhost:3000/shifts/df91' \
     "location_detail": "Eatons Centre",
     "status": "closed"
     }
-]
 ```
 
 ## Return status

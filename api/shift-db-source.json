@@ -118,15 +118,6 @@
       "warning": "opening",
       "location_detail": "Eatons Centre",
       "status": "closed"
-    },
-    {
-      "id": "81a2",
-      "date": "2024-06-11",
-      "start_time": "0900",
-      "shift_length": "6",
-      "warning": "opening",
-      "location_detail": "Eatons Centre",
-      "status": "closed"
     }
   ]
 }
