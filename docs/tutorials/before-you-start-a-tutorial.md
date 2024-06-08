@@ -50,7 +50,7 @@ If your development system is installed correctly, you should see the service st
 Make a test call to the service.
 
 ```json
-    curl http://localhost:3000/shifts
+curl http://localhost:3000/shifts
 ```
 
 If the service is running correctly, you should see a list of shifts from the service, such as in this example.
