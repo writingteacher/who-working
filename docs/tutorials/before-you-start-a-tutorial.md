@@ -57,23 +57,23 @@ If the service is running correctly, you should see a list of shifts from the se
 
 ```js
 {
-        "id": "1",
-        "date": "2024-06-01",
-        "start_time": "0700",
-        "shift_length": "4",
-        "warning": "opening",
-        "location_detail": "Eatons Centre",
-        "status": "open"
-    },
-    {
-        "id": "2",
-        "date": "2024-06-03",
-        "start_time": "1030",
-        "shift_length": "4",
-        "warning": "none",
-        "location_detail": "Yorkville Mall",
-        "status": "open"
-    }
+    "id": "1",
+    "date": "2024-06-01",
+    "start_time": "0700",
+    "shift_length": "4",
+    "warning": "opening",
+    "location_detail": "Eatons Centre",
+    "status": "open"
+},
+{
+    "id": "2",
+    "date": "2024-06-03",
+    "start_time": "1030",
+    "shift_length": "4",
+    "warning": "none",
+    "location_detail": "Yorkville Mall",
+    "status": "open"
+}
 ```
 
 If you don't see the list of `shifts`, or receive an error in any step
