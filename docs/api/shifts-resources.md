@@ -48,6 +48,10 @@ The `shifts` resource supports these operations.
 * [Get shift by ID *endpoint*](get-a-shift-by-id.md)
 * [Get shifts by date *endpoint*](get-shifts-by-date.md)
 * [Get shifts by shift length *endpoint*](get-shifts-by-length.md)
+* [Get all shifts endpoint](get-all-shifts.md)
+* [Get shift by ID endpoint](get-a-shift-by-id.md)
+* [Get shifts by date endpoint](get-shifts-by-date.md)
+* [Get shifts by shift length endpoint](get-shifts-by-length.md)
 
 ### CREATE (POST)
 
