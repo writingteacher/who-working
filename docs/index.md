@@ -10,7 +10,7 @@ Who's Working is a cloud service that helps your shift managers find trained par
 
 There are two resources.
 
-**Workers** - A record for each part-time worker who agreed to have their name and contact information added to the Who's Working service. The Workers resource includes endpoints to create, retrieve, update, and delete user information. In Version 1, store managers create worker records. In version 2, workers will be able to create and update their own records (subject to store manager review and approval).
+**Workers** - A record for each part-time worker who agreed to have their name and contact information added to the Who's Working service. The Workers resource includes endpoints to create, retrieve, update, and delete user information. In Version 1, store managers create worker records. In Version 2, workers will be able to create and update their own records (subject to store manager review and approval).
 
 **Shifts** - Available shifts in the restaurant created by the shift manager. Each shift describes the location, day and time, shift length, and warnings. The Shifts resource includes endpoints to create, retrieve, update, and delete shift records.
 
@@ -20,9 +20,9 @@ The Who's Working app uses [Basic Authentication](api/basic_auth.md).
 
 ## Before you start
 
-The quickstart tasks and tutorial listed below are designed to run on your development system with Postman. Before running the quickstart or tutorial, you need to set up your system. The good news is that you only need to complete the setup once per development system.
+The quickstart guide and tutorial listed below run on your development system with Postman. Before running the quickstart or tutorial, you need to set up your system. The good news is that you only need to complete the setup once per development system.
 
-* [Before you start](tutorials/before-you-start-a-tutorial.md)
+* [Get your system ready](tutorials/before-you-start-a-tutorial.md)
 
 After your system is ready, open the quickstart or tutorial and learn how to perform common tasks.
 
