@@ -10,7 +10,7 @@ Expect this tutorial to take about 15 minutes to complete.
 
 ## Before you start
 
-Make sure you've completed the [Get your system ready](before-you-start-a-tutorial) checklist on the development system you'll use for the tutorial.
+Make sure you've completed the [Before you start](before-you-start-a-tutorial) checklist on the development system you'll use for the tutorial.
 
 ## Locating an existing shift
 
