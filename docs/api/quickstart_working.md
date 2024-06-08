@@ -4,7 +4,7 @@ layout: page
 
 # Quickstart guide
 
-Busy managing a quickservice location?
+Busy running a quickservice location?
 
 Easily manage all your last-minute staffing requirements with one simple app!
 
@@ -42,26 +42,28 @@ To build your API call, you must have the following components:
 
 | :--------------: | :--------------: |
 | HTTP Method | Endpoint |
-| GET | List all shifts |
-| GET | List shifts by ID |
-| GET | List shift by date |
-| POST | Create a shift |
-| PUT | Update shift by ID |
-| PATCH | Update shift properties |
-| CREATE | Create a shift |
+| GET | [List shifts by status *endpoint plus complete ref*](get-shifts-by-status.md) |
+| GET | [List all shifts *endpoint*](get-all-shifts.md) |
+| GET | [List shift by ID *endpoint*](get-a-shift-by-id.md)|
+| GET | [List shifts by date *endpoint*](get-shifts-by-date.md)|
+| GET | [List shifts by shift length *endpoint*](get-shifts-by-length.md)|
+| POST | [Create a shift *endpoint plus complete ref*](create-shift.md)|
+| PATCH | [Change shift status *endpoint plus complete ref*](change-shift-status.md) |
+| PATCH | [Update shift property by ID *endpoint*](change-shift-by-id.md) |
+| DELETE | [Delete a shift by ID *endpoint plus complete ref*](delete-shift-by-id.md)|
 
 #### Workers
 
 | :--------------: | :--------------: |
 | HTTP Method | Endpoint |
-| GET | List all workers |
-| GET | List workers by ID |
-| GET | List workers by email |
-| POST | Create a worker|
-| PUT | Update worker by ID |
-| PATCH | Update worker email |
-| PATCH | Update a worker property |
-| CREATE | Create a worker |
+| GET | [List all workers *endpoint*](get-all-workers.md) |
+| GET | [List workers by last name *endpoint*](get-worker-by-last-name.md) |
+| GET | [List workers by ID *endpoint*](get-worker-by-id) |
+| GET | [List workers by available days *endpoint plus complete ref*](get_workers_days.md) |
+| GET | [List workers by available time *endpoint*](get_workers_available_time.md) |
+| POST | [Create a worker *endpoint plus complete ref*](create-worker.md)|
+| PATCH | [Change a worker property by ID *endpoint*](change-worker-property-by-id.md) |
+| DELETE | [Delete a worker by ID *endpoint*](delete-worker-by-id.md)|
 
 ## Making your first API call – *List all shifts*
 

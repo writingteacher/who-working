@@ -31,16 +31,14 @@ DELETE
 ## Example request body
 
 ```json
-[
-        {
+{
         "date": "2024-08-11",
         "start_time": "0700",
         "shift_length": "6.5",
         "warning": "opening",
         "location_detail": "Eatons Centre",
         "status": "open"
-        }
-]
+}
 ```
 
 ```
@@ -62,13 +60,13 @@ curl --location --request DELETE 'http://localhost:3000/shifts/5a9b' \
 
 ```js
 {
-    "id": "5a9b",
-    "date": "2024-08-11",
-    "start_time": "0700",
-    "shift_length": "6.5",
-    "warning": "opening",
-    "location_detail": "Eatons Centre",
-    "status": "open"
+        "id": "5a9b",
+        "date": "2024-08-11",
+        "start_time": "0700",
+        "shift_length": "6.5",
+        "warning": "opening",
+        "location_detail": "Eatons Centre",
+        "status": "open"
 }
 ```
 

@@ -12,7 +12,7 @@ Expect this preparation to take about 20 minutes to complete.
 
 The following instructions describe how to set up a system for a Windows machine. To prepare a MacOS machine for the tutorial, visit the MacOS installation guide.
 
-To complete the tutorial, you need the following.
+You need the following:
 
 * A [GitHub account](https://github.com)
 * A development system (e.g. PC, Mac, or Linux) running a current or
@@ -28,7 +28,7 @@ You'll need the following software on your development system:
 * A current copy of the database file. You can get this by syncing your fork.
 * The [Postman desktop app](https://www.postman.com/downloads/). Because you run the **Who's Working service** on your development system with an `http://localhost` hostname, the web version of Postman can't perform the exercises.
 
-**TIP**: If you're using a clone of the repo on your desktop, create a working branch for your tutorial work. Create a new branch for each tutorial to prevent a mistake in one from affecting your work in another.
+**TIP**: If you're using a clone of the repo on your desktop, create a working branch for your work. Create a new branch for each task to prevent a mistake in one from affecting your work in another.
 
 ## Testing your development system
 
@@ -47,36 +47,34 @@ Create and checkout a working branch of your **Who's Working** service clone. Yo
 
 If your development system is installed correctly, you should see the service start and display the URL of the service: `http://localhost:3000`.
 
-2. Make a test call to the service.
+Make a test call to the service.
 
 ```json
-    curl http://localhost:3000/shifts
+curl http://localhost:3000/shifts
 ```
 
-3. If the service is running correctly, you should see a list of shifts from the service, such as in this example.
+If the service is running correctly, you should see a list of shifts from the service, such as in this example.
 
 ```js
-    [
-        {
-        "id": "1",
-        "date": "2024-06-01",
-        "start_time": "0700",
-        "shift_length": "4",
-        "warning": "opening",
-        "location_detail": "Eatons Centre",
-        "status": "open"
-        },
-        {
-        "id": "2",
-        "date": "2024-06-03",
-        "start_time": "1030",
-        "shift_length": "4",
-        "warning": "none",
-        "location_detail": "Yorkville Mall",
-        "status": "open"
-        },
-        ...
-    ```
+{
+    "id": "1",
+    "date": "2024-06-01",
+    "start_time": "0700",
+    "shift_length": "4",
+    "warning": "opening",
+    "location_detail": "Eatons Centre",
+    "status": "open"
+},
+{
+    "id": "2",
+    "date": "2024-06-03",
+    "start_time": "1030",
+    "shift_length": "4",
+    "warning": "none",
+    "location_detail": "Yorkville Mall",
+    "status": "open"
+}
+```
 
 If you don't see the list of `shifts`, or receive an error in any step
 of the procedure, investigate and correct the error before continuing.
@@ -87,4 +85,4 @@ Some common situations that cause errors include:
 3. A required software component didn't install correctly.
 4. A required software component isn't up to date.
 
-If you see the list of shifts from the service, you're ready to do the [quickstart tasks](../api/quickstart_working.md) or a [tutorial](update-a-shift.md).
+If you see the list of shifts from the service, you're ready to do the [quickstart guide](../api/quickstart_working.md) or a [tutorial](update-a-shift.md).
