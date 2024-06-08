@@ -4,7 +4,7 @@ layout: page
 
 # Change a worker property value
 
-Update any property of a specific workr record. Enter the ID number followed by the property name and value in the request body.
+Update any property of a specific worker record. Enter the ID number followed by the property name and value in the request body.
 
 ## HTTP method
 
