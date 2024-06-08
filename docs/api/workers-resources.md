@@ -53,7 +53,7 @@ The `workers` resource supports these operations.
 
 * [Create a worker *complete*](create-worker.md)
 
-### UPDATE (PUT/PATCH)
+### UPDATE (PATCH)
 
 * [Change a worker property by ID *endpoint*](change-worker-property-by-id.md)
 
