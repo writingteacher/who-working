@@ -56,8 +56,7 @@ Make a test call to the service.
 If the service is running correctly, you should see a list of shifts from the service, such as in this example.
 
 ```js
-[
-    {
+{
         "id": "1",
         "date": "2024-06-01",
         "start_time": "0700",
@@ -74,10 +73,8 @@ If the service is running correctly, you should see a list of shifts from the se
         "warning": "none",
         "location_detail": "Yorkville Mall",
         "status": "open"
-    },
-]
-        ...
-    ```
+    }
+```
 
 If you don't see the list of `shifts`, or receive an error in any step
 of the procedure, investigate and correct the error before continuing.
