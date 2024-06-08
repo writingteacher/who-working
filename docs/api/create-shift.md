@@ -26,11 +26,11 @@ POST
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `date`    | String | The date (YYYY-MM-DD) of the work shift. Use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format.|
-| `start_time` | Integer | The shift's start time. Use 24 clock time with no colon.|
-| `shift_length` | Decimal | The shift length measured in hours. Use numbers with one decimal place (e.g. 4.5).|
-| `location_detail`  | String | A short description of the restaurant's location.|
-| `status`  | String | The shift is **Open** (waiting to fill the positon) or **Closed** (the positon is no longer available).|
+| `date`    | string | The date (YYYY-MM-DD) of the work shift. Use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format.|
+| `start_time` | integer | The shift's start time. Use 24 clock time with no colon.|
+| `shift_length` | decimal | The shift length measured in hours. Use numbers with one decimal place (e.g. 4.5).|
+| `location_detail`  | string | A short description of the restaurant's location.|
+| `status`  | string | The shift is **Open** (waiting to fill the positon) or **Closed** (the positon is no longer available).|
 
 ## Example request body
 
@@ -59,8 +59,7 @@ curl --location 'http://localhost:3000/shifts' \
 ## Return body
 
 ```js
-[
-    {
+ {
     "id": "df91",
     "date": "2024-07-21",
     "start_time": "0700",
@@ -68,8 +67,7 @@ curl --location 'http://localhost:3000/shifts' \
     "warning": "opening",
     "location_detail": "Eatons Centre",
     "status": "open"
-    }
-]
+ }
 ```
 
 ## Return status
