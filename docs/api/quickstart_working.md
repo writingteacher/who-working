@@ -49,7 +49,7 @@ To build your API call, you must have the following components:
 | GET | [List shifts by shift length *endpoint*](get-shifts-by-length.md)|
 | POST | [Create a shift *endpoint plus complete ref*](create-shift.md)|
 | PATCH | [Change shift status *endpoint plus complete ref*](change-shift-status.md) |
-| PATCH | [Update shift property by ID endpoint](change-shift-by-id.md) |
+| PATCH | [Update shift property by ID *endpoint*](change-shift-by-id.md) |
 | DELETE | [Delete a shift by ID *endpoint plus complete ref*](delete-shift-by-id.md)|
 
 #### Workers
