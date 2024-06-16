@@ -39,7 +39,7 @@ This [quickstart](api/quickstart_working.md) guide provides all the information 
 
 #### Workers
 
-* Create a new worker (coming soon)
+* [Create a new worker](tutorials/Create-a-new-worker.md)
 
 ## API reference docs
 
