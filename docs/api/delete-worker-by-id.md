@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Delete a worker
+# Delete a worker by ID
 
 Permanently remove a worker record from the service.
 

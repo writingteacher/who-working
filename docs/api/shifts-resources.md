@@ -39,29 +39,35 @@ Sample `shifts` resource.
 
 ## Operations
 
-The `shifts` resource supports these operations.
+The `shifts` resource supports these operations. Resources with an **Endpoint** description provide the endpoint but do not have a full set of instructions.  
 
 ### READ (GET)
 
-* [Get shifts by status *complete*](get-shifts-by-status.md)
-* [Get all shifts *endpoint*](get-all-shifts.md)
-* [Get shift by ID *endpoint*](get-a-shift-by-id.md)
-* [Get shifts by date *endpoint*](get-shifts-by-date.md)
-* [Get shifts by shift length *endpoint*](get-shifts-by-length.md)
-* [Get all shifts endpoint](get-all-shifts.md)
-* [Get shift by ID endpoint](get-a-shift-by-id.md)
-* [Get shifts by date endpoint](get-shifts-by-date.md)
-* [Get shifts by shift length endpoint](get-shifts-by-length.md)
+| Resource | Description |
+| ------------- | ----------- |
+| [Get shifts by status](get-shifts-by-status.md)  | Complete  |
+| [Get all shifts](get-all-shifts.md)  | Endpoint  |
+| [Get a shift by ID](get-a-shift-by-id.md)           | Endpoint  |
+| [Get shifts by date](get-shifts-by-date.md)       | Endpoint  |
+| [Get all shifts by duration](get-shifts-by-length.md)            | Endpoint  |
+| [Get a shift by ID](get-a-shift-by-id.md)  | Endpoint  |
+| [Get all shifts by date](get-shifts-by-date.md)              | Endpoint  |
 
 ### CREATE (POST)
 
-* [Create a shift *complete*](create-shift.md)
+| Resource | Description |
+| ------------- | ----------- |
+| [Create a shift](create-shift.md)  | Complete  |
 
 ### UPDATE (PATCH)
 
-* [Change shift status *complete*](change-shift-status.md)
-* [Update shift property by ID *endpoint*](change-shift-by-id.md)
+| Resource | Description |
+| ------------- | ----------- |
+| [Change the status of a shift](change-shift-status.md)  | Complete  |
+| [Change a shift property by ID](change-shift-by-id.md)  | Endpoint  |
 
 ### DELETE
 
-* [Delete a shift by ID *complete*](delete-shift-by-id.md)
+| Resource | Description |
+| ------------- | ----------- |
+| [Delete a shift by ID](delete-shift-by-id.md)  | Complete  |

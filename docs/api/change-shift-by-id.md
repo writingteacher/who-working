@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Change a shift property value
+# Change a shift property value by ID
 
 Update any property of a specific shift. Enter the ID number followed by the property name and value in the request body.
 

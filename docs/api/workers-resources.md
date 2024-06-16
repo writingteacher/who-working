@@ -39,24 +39,32 @@ Sample `workers` resource.
 
 ## Operations
 
-The `workers` resource supports these operations.
+The `workers` resource supports these operations. Resources with an **Endpoint** description provide the endpoint but do not have a full set of instructions.
 
 ### READ (GET)
 
-* [Get all workers *endpoint*](get-all-workers.md)
-* [Get workers by last name *endpoint*](get-worker-by-last-name.md)
-* [Get workers by ID *endpoint*](get-worker-by-id)
-* [Get workers by available days *complete*](get_workers_days.md)
-* [Get workers by available time *endpoint*](get_workers_available_time.md)
+| Resource | Description |
+| ------------- | ----------- |
+| [Get workers by available days](get_workers_days.md)  | Complete  |
+| [Get all workers](get-all-workers.md)  | Endpoint  |
+| [Get workers by last name](get-worker-by-last-name.md)  | Endpoint  |
+| [Get workers by ID](get-worker-by-id)  | Endpoint  |
+| [Get workers by available time](get_workers_available_time.md)  | Endpoint  |
 
 ### CREATE (POST)
 
-* [Create a worker *complete*](create-worker.md)
+| Resource | Description |
+| ------------- | ----------- |
+| [Create a worker](create-worker.md)  | Complete  |
 
 ### UPDATE (PATCH)
 
-* [Change a worker property by ID *endpoint*](change-worker-property-by-id.md)
+| Resource | Description |
+| ------------- | ----------- |
+| [Change a worker property by ID](change-worker-property-by-id.md)  | Endpoint  |
 
 ### DELETE
 
-* [Delete a worker by ID *endpoint*](delete-worker-by-id.md)
+| Resource | Description |
+| ------------- | ----------- |
+| [Delete a worker by ID](delete-worker-by-id.md)  | Endpoint  |

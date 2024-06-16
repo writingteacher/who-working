@@ -40,8 +40,8 @@ To build your API call, you must have the following components:
 
 #### Shifts
 
-| :--------------: | :--------------: |
 | HTTP Method | Endpoint |
+| :--------------: | :-------------- |
 | GET | [List shifts by status *endpoint plus complete ref*](get-shifts-by-status.md) |
 | GET | [List all shifts *endpoint*](get-all-shifts.md) |
 | GET | [List shift by ID *endpoint*](get-a-shift-by-id.md)|
@@ -54,8 +54,8 @@ To build your API call, you must have the following components:
 
 #### Workers
 
-| :--------------: | :--------------: |
 | HTTP Method | Endpoint |
+| :--------------: | :-------------- |
 | GET | [List all workers *endpoint*](get-all-workers.md) |
 | GET | [List workers by last name *endpoint*](get-worker-by-last-name.md) |
 | GET | [List workers by ID *endpoint*](get-worker-by-id) |

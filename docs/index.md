@@ -22,7 +22,7 @@ The Who's Working app uses [Basic Authentication](api/basic_auth.md).
 
 The quickstart guide and tutorial listed below run on your development system with Postman. Before running the quickstart or tutorial, you need to set up your system. The good news is that you only need to complete the setup once per development system.
 
-* [Get your system ready](tutorials/before-you-start-a-tutorial.md)
+* [Before you start](tutorials/before-you-start-a-tutorial.md)
 
 After your system is ready, open the quickstart or tutorial and learn how to perform common tasks.
 
@@ -31,21 +31,15 @@ After your system is ready, open the quickstart or tutorial and learn how to per
 This [quickstart](api/quickstart_working.md) guide provides all the information you need to begin using Who's Working to fill last-minute staffing vacancies. Expect to complete the quickstart tasks and make your first API call in about ten minutes.
 
 ## Tutorials
+*Read our [roadmap](tutorials/api-doc-roadmap.md) to learn about planned improvments.*
 
 #### Shifts
 
 * [Update a shift](tutorials/update-a-shift.md)
-* Create a shift (coming soon)
-* Edit a shift (coming soon)
-* Delete a shift (coming soon)
-* Get a shift by a property (coming soon)
 
 #### Workers
 
-* Create a new worker (coming soon)
-* Update a specific worker's information (coming soon)
-* Delete a worker (coming soon)
-* Get a worker by a property (coming soon)
+* [Create a new worker](tutorials/Create-a-new-worker.md)
 
 ## API reference docs
 
