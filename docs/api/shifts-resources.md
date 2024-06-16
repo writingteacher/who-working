@@ -42,16 +42,16 @@ Sample `shifts` resource.
 The `shifts` resource supports these operations.
 
 ### READ (GET)
-
-* [Get shifts by status *complete*](get-shifts-by-status.md)
-* [Get all shifts *endpoint*](get-all-shifts.md)
-* [Get shift by ID *endpoint*](get-a-shift-by-id.md)
-* [Get shifts by date *endpoint*](get-shifts-by-date.md)
-* [Get shifts by shift length *endpoint*](get-shifts-by-length.md)
-* [Get all shifts endpoint](get-all-shifts.md)
-* [Get shift by ID endpoint](get-a-shift-by-id.md)
-* [Get shifts by date endpoint](get-shifts-by-date.md)
-* [Get shifts by shift length endpoint](get-shifts-by-length.md)
+| Resource | Description |
+| ------------- | ----------- |
+| [Get shifts by status](get-shifts-by-status.md)             | Complete  |
+| [Get all shifts *endpoint*](get-all-shifts.md)               | Endpoint  |
+| [Get shift by ID *endpoint*](get-a-shift-by-id.md)           | Endpoint  |
+| [Get shifts by date *endpoint*](get-shifts-by-date.md)       | Endpoint  |
+| [Get shifts by shift length *endpoint*](get-shifts-by-length.md)            | Endpoint  |
+| [Get shift by ID endpoint](get-a-shift-by-id.md)  | Endpoint  |
+| [Get shifts by date endpoint](get-shifts-by-date.md)   | Endpoint  |
+| [Get shifts by shift length endpoint](get-shifts-by-length.md)   | Endpoint  |
 
 ### CREATE (POST)
 
