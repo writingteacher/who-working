@@ -39,7 +39,7 @@ Sample `shifts` resource.
 
 ## Operations
 
-The `shifts` resource supports these operations.
+The `shifts` resource supports these operations. Resources with an **Endpoint** description provide the endpoint but do not have a full set of instructions.  
 
 ### READ (GET)
 
@@ -47,12 +47,11 @@ The `shifts` resource supports these operations.
 | ------------- | ----------- |
 | [Get shifts by status](get-shifts-by-status.md)  | Complete  |
 | [Get all shifts](get-all-shifts.md)  | Endpoint  |
-| [Get shift by ID](get-a-shift-by-id.md)           | Endpoint  |
+| [Get a shift by ID](get-a-shift-by-id.md)           | Endpoint  |
 | [Get shifts by date](get-shifts-by-date.md)       | Endpoint  |
-| [Get shifts by shift length](get-shifts-by-length.md)            | Endpoint  |
-| [Get shift by ID](get-a-shift-by-id.md)  | Endpoint  |
-| [Get shifts by date](get-shifts-by-date.md)              | Endpoint  |
-| [Get shifts by shift length](get-shifts-by-length.md)   | Endpoint  |
+| [Get all shifts by duration](get-shifts-by-length.md)            | Endpoint  |
+| [Get a shift by ID](get-a-shift-by-id.md)  | Endpoint  |
+| [Get all shifts by date](get-shifts-by-date.md)              | Endpoint  |
 
 ### CREATE (POST)
 
@@ -64,8 +63,8 @@ The `shifts` resource supports these operations.
 
 | Resource | Description |
 | ------------- | ----------- |
-| [Change shift status](change-shift-status.md)  | Complete  |
-| [Update shift property by ID](change-shift-by-id.md)  | Endpoint  |
+| [Change the status of a shift](change-shift-status.md)  | Complete  |
+| [Change a shift property by ID](change-shift-by-id.md)  | Endpoint  |
 
 ### DELETE
 
