@@ -47,9 +47,9 @@ The `workers` resource supports these operations. Resources with an **Endpoint**
 | ------------- | ----------- |
 | [Get workers by available days](get_workers_days.md)  | Complete  |
 | [Get all workers](get-all-workers.md)  | Endpoint  |
-| [Get workers by last name](get-worker-by-last-name.md)  | Endpoint  |
-| [Get workers by ID](get-worker-by-id)  | Endpoint  |
-| [Get workers by available time](get_workers_available_time.md)  | Endpoint  |
+| [Get a worker by last name](get-worker-by-last-name.md)  | Endpoint  |
+| [Get a worker by ID](get-worker-by-id)  | Endpoint  |
+| [Get all workers by available time](get_workers_available_time.md)  | Endpoint  |
 
 ### CREATE (POST)
 

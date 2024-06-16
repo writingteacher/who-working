@@ -44,6 +44,15 @@
       "phone": "010-1212-1212",
       "available_days": "both",
       "available_time": "all"
+    },
+    {
+      "id": "f61b",
+      "last_name": "Jones",
+      "first_name": "Barry",
+      "email": "bjones@yopmail.com",
+      "phone": "905-555-2222",
+      "available_days": "weekdays",
+      "available_time": "all"
     }
   ],
   "shifts": [
