@@ -1,0 +1,107 @@
+---
+layout: page
+---
+
+# Roadmap
+
+The public version of this API document is a minimal value product. Like all matters related to work, the scope of this document was contrained by resources, both time and financial.
+
+Several udpates and revisions are planned for the next three to six months.
+
+## Current release
+
+Version 1, June 19, 2024
+
+
+## Planned Version 1.1
+
+Add tutorials.
+
+| Resource | Description |
+| ------------- | ----------- |
+| `shifts`     | Create a shift  |
+| `shifts`     | Edit a shift  |
+| `shifts`     | Delete a shift  |
+| `shifts`     | Get a shift by a property  |
+| `workers`    | Update a specific worker's information  |
+| `workers`    | Delete a worker |
+| `workers`    | Get a worker by a property  |
+
+## Version 1.2
+
+The following instructions describe how to set up a system for a Windows machine. To prepare a MacOS machine for the tutorial, visit the MacOS installation guide.
+
+You need the following:
+
+* A [GitHub account](https://github.com)
+* A development system (e.g. PC, Mac, or Linux) running a current or
+long-term support (LTS version of the operating system).
+
+You'll need the following software on your development system:
+
+* [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line).
+* [GitHub Desktop](https://desktop.github.com) (optional).
+* A fork of the [Who's Working service repo](https://github.com/writingteacher/who-working) and a clone on your local machine.
+* A current/LTS version of [node.js](https://nodejs.org/en/).
+* A current version of [json-server](https://www.npmjs.com/package/json-server).
+* A current copy of the database file. You can get this by syncing your fork.
+* The [Postman desktop app](https://www.postman.com/downloads/). Because you run the **Who's Working service** on your development system with an `http://localhost` hostname, the web version of Postman can't perform the exercises.
+
+**TIP**: If you're using a clone of the repo on your desktop, create a working branch for your work. Create a new branch for each task to prevent a mistake in one from affecting your work in another.
+
+## Testing your development system
+
+To test your development system, follow these steps:
+
+Create and checkout a working branch of your **Who's Working** service clone. Your `GitHub repo workspace` is the directory that contains the `Who's Working` clone. The database file that you need to access in the API folder is called `shift-db-source.json`.
+
+    ```shell
+    cd < your GitHub repo workspace >
+    ls
+    # (see the who-working service directory in the list)
+    cd who-working
+    cd api
+    json-server -w shift-db-source.json
+    ```
+
+If your development system is installed correctly, you should see the service start and display the URL of the service: `http://localhost:3000`.
+
+Make a test call to the service.
+
+```json
+curl http://localhost:3000/shifts
+```
+
+If the service is running correctly, you should see a list of shifts from the service, such as in this example.
+
+```js
+{
+    "id": "1",
+    "date": "2024-06-01",
+    "start_time": "0700",
+    "shift_length": "4",
+    "warning": "opening",
+    "location_detail": "Eatons Centre",
+    "status": "open"
+},
+{
+    "id": "2",
+    "date": "2024-06-03",
+    "start_time": "1030",
+    "shift_length": "4",
+    "warning": "none",
+    "location_detail": "Yorkville Mall",
+    "status": "open"
+}
+```
+
+If you don't see the list of `shifts`, or receive an error in any step
+of the procedure, investigate and correct the error before continuing.
+Some common situations that cause errors include:
+
+1. You mistyped a command.
+2. You aren't in the correct directory.
+3. A required software component didn't install correctly.
+4. A required software component isn't up to date.
+
+If you see the list of shifts from the service, you're ready to do the [quickstart guide](../api/quickstart_working.md) or a [tutorial](update-a-shift.md).
