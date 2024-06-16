@@ -31,6 +31,7 @@ After your system is ready, open the quickstart or tutorial and learn how to per
 This [quickstart](api/quickstart_working.md) guide provides all the information you need to begin using Who's Working to fill last-minute staffing vacancies. Expect to complete the quickstart tasks and make your first API call in about ten minutes.
 
 ## Tutorials
+*Read our [roadmap](tutorials/api-doc-roadmap.md) to learn about planned improvments.*
 
 #### Shifts
 
