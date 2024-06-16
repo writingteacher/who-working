@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Delete a shift
+# Delete a shift by ID
 
 Permanently remove a restaurant shift from the service. Before deleting a shift, the user must locate an existing shift by the ID.
 
