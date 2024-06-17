@@ -29,49 +29,39 @@ Add tutorials.
 
 ## Planned Version 1.2
 
-Complete reference topic instructions for Shifts resources.
+Complete reference topics for Shifts resources.
 
 ### READ (GET)
 
-| Resource | Description |
-| ------------- | ----------- |
-| [Get all shifts](get-all-shifts.md)  | Endpoint  |
-| [Get a shift by ID](get-a-shift-by-id.md)           | Endpoint  |
-| [Get shifts by date](get-shifts-by-date.md)       | Endpoint  |
-| [Get all shifts by duration](get-shifts-by-length.md)            | Endpoint  |
-| [Get a shift by ID](get-a-shift-by-id.md)  | Endpoint  |
-| [Get all shifts by date](get-shifts-by-date.md)              | Endpoint  |
+* [Get all shifts](get-all-shifts.md)
+* [Get a shift by ID](get-a-shift-by-id.md)
+* [Get shifts by date](get-shifts-by-date.md)
+* [Get all shifts by duration](get-shifts-by-length.md)
+* [Get a shift by ID](get-a-shift-by-id.md)
+* [Get all shifts by date](get-shifts-by-date.md) 
 
 ### UPDATE (PATCH)
 
-| Resource | Description |
-| ------------- | ----------- |
-| [Change a shift property by ID](change-shift-by-id.md)  | Endpoint  |
+* [Change a shift property by ID](change-shift-by-id.md)
 
 ## Planned Version 1.3
 
-Complete reference topic instructions for Workers resources.
+Complete reference topics for Workers resources.
 
 ### READ (GET)
 
-| Resource | Description |
-| ------------- | ----------- |
-| [Get all workers](get-all-workers.md)  | Endpoint  |
-| [Get a worker by last name](get-worker-by-last-name.md)  | Endpoint  |
-| [Get a worker by ID](get-worker-by-id)  | Endpoint  |
-| [Get all workers by available time](get_workers_available_time.md)  | Endpoint  |
+* [Get all workers](get-all-workers.md)
+* [Get a worker by last name](get-worker-by-last-name.md)
+* [Get a worker by ID](get-worker-by-id)
+* [Get all workers by available time](get_workers_available_time.md)
 
 ### UPDATE (PATCH)
 
-| Resource | Description |
-| ------------- | ----------- |
-| [Change a worker property by ID](change-worker-property-by-id.md)  | Endpoint  |
+* [Change a worker property by ID](change-worker-property-by-id.md)
 
 ### DELETE
 
-| Resource | Description |
-| ------------- | ----------- |
-| [Delete a worker by ID](delete-worker-by-id.md)  | Endpoint  |
+* [Delete a worker by ID](delete-worker-by-id.md)
 
 ## Planned Version 2.0
 
