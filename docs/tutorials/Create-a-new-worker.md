@@ -4,7 +4,7 @@ layout: page
 
 # Tutorial: Create a new worker
 
-In this tutorial, you learn how to create  new worker record with the `POST` METHOD. The use case is very practical - a store manager creates a new worker by locating an old one with a **CLOSED** status and then changing the shift date and status (from CLOSED to OPEN). Knowing how to update a shift helps store managers save time. They can quickly generate a new shift from a previous record and avoid creating a new shift from scratch.
+In this tutorial, you learn how to create a new worker record with the `POST` METHOD. The use case is very practical. In Version 1 of the service, each store manager must manually create worker records. In Version 2, store employees who sign up for the service will be able to create their own app records.
 
 Expect this tutorial to take about 15 minutes to complete.
 
@@ -12,105 +12,59 @@ Expect this tutorial to take about 15 minutes to complete.
 
 Make sure you've completed the [Before you start](before-you-start-a-tutorial) checklist on the development system you'll use for the tutorial.
 
-## Locating an existing shift
+## Creating a record
 
-The first step is to display a list of shifts with the CLOSED status, find the record that needs to be updated, and note the ID number. Viewing a specific shift record requires the `GET` method.
+Go to Postman and create a new request with these values:
 
-1. Open the Postman app on your desktop.
-1. In the Postman app, create a new request with these values:
-    * **METHOD**: GET
-    * **URL**: `{server_url}/shifts?status=closed`
-    * **Headers**:`Content-Type: application/json`
-    * **Request body**: None
-
-Sample call.
-```bash
-curl --location 'http://localhost:3000/shifts?status=closed'
-```
-
-In the Postman app, select **Send** to make the request. The service returns a JSON object that contains all closed shifts. Each shift has the following format. Note the `id` of the shift to update.
-
-```js
-[
-    {
-        "id": "03b6",
-        "date": "2024-07-13",
-        "start_time": "0900",
-        "shift_length": "6",
-        "warning": "opening",
-        "location_detail": "Eatons Centre",
-        "status": "closed"
-    },
-    {
-        "id": "03d3",
-        "date": "2024-06-11",
-        "start_time": "0900",
-        "shift_length": "6",
-        "warning": "opening",
-        "location_detail": "Eatons Centre",
-        "status": "closed"
-    },
-    {
-        "id": "81a2",
-        "date": "2024-06-11",
-        "start_time": "0900",
-        "shift_length": "6",
-        "warning": "opening",
-        "location_detail": "Eatons Centre",
-        "status": "closed"
-    }
-]
-```
-
-## Updating shift information
-
-Now that you know the shift `id`, send a PATCH request to the /shifts/{id} endpoint to update the record.
-
-To update shift properties:
-
-In Postman, create a new request with these values:
-
-* **METHOD**: PATCH
-* **URL**: `{server_url}/shifts/{id}`
+* **METHOD**: POST
+* **URL**: `{server_url}/workers`
 * **Headers**:`Content-Type: application/json`
 
-Sample call for shift ID 03b6.
+Sample call for a new worker.
 ```bash
-curl --location --request PATCH 'http://localhost:3000/shifts/03b6' \
+curl --location 'http://localhost:3000/workers' \
 --header 'Content-Type: application/json' \
---data ' {
-    "date": "2024-07-22",
-    "status": "open"
-}'
+--data-raw '    {
+        "last_name": "Jones",
+        "first_name": "Barry",
+        "email": "bjones@yopmail.com",
+        "phone": "905-555-2222",
+        "available_days": "weekdays",
+        "available_time": "all"
+    }'
 ```
 
-In the Request Body, add the properties and parameters that require an update. In this example, the date changes to July 22, and the status changes from `CLOSED` to `OPEN`.
+In the Request Body, add the properties and parameters. All properties are required.
 
 ```js
 {
-    "date": "2024-07-22",
-    "status": "open"
+        "last_name": "Jones",
+        "first_name": "Barry",
+        "email": "bjones@yopmail.com",
+        "phone": "905-555-2222",
+        "available_days": "weekdays",
+        "available_time": "all"
 }
 ```
 
-Click **Send**. The service updates the shift record and returns a 200 OK along with the updated task as a JSON object.
+Click **Send**. The service creates a new worker record and returns a 200 OK along with the updated worker record as a JSON object.
 
 ```js
 {
-    "id": "03b6",
-    "date": "2024-07-22",
-    "start_time": "0900",
-    "shift_length": "6",
-    "warning": "opening",
-    "location_detail": "Eatons Centre",
-    "status": "open"
+    "id": "f61b",
+    "last_name": "Jones",
+    "first_name": "Barry",
+    "email": "bjones@yopmail.com",
+    "phone": "905-555-2222",
+    "available_days": "weekdays",
+    "available_time": "all"
 }
  ```
 
 ## Next Steps
 
 Now that you have verified this API workflow in Postman, you’re ready to integrate it into your application. For more information, contact your customer success manager or read our
- [Quickstart guide](../api/quickstart_working.md)
+ [Quickstart guide](../api/quickstart_working.md). If you're interested in our long term plans for the service, read our [Roadmap document](api-doc-roadmap.md).
 
 ## Related Topics
 
